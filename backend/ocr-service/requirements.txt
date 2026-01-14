@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+paddleocr
+paddlepaddle
+opencv-python-headless
+numpy
+boto3
+qdrant-client
+sentence-transformers
+python-multipart
+python-dotenv
