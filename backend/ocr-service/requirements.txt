@@ -9,3 +9,5 @@ qdrant-client
 sentence-transformers
 python-multipart
 python-dotenv
+pdf2image
+pillow
