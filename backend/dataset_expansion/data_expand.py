@@ -10,7 +10,7 @@ INPUT_FILE = 'refactored_dataset.json'
 OUTPUT_FILE = 'expanded_dataset.json'
 CHECKPOINT_FILE = 'checkpoint.txt'
 
-
+#i have set the input as per my previous dataset 
 def get_progressive_prompt(item):
     return f"""
     ### ROLE: Curriculum Engineer & Socratic Tutor
