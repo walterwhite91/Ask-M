@@ -1,12 +1,37 @@
-import easyocr
+# trocr_ocr.py
+from transformers import TrOCRProcessor, VisionEncoderDecoderModel
+from PIL import Image
+import torch
+import io
 
-# Initialize the reader
-reader = easyocr.Reader(['en'], gpu=False) 
+# Load once (important)
+processor = TrOCRProcessor.from_pretrained(
+    "microsoft/trocr-base-handwritten"
+)
+model = VisionEncoderDecoderModel.from_pretrained(
+    "microsoft/trocr-base-handwritten"
+)
 
-def extract_text_from_image(processed_img):
-    """
-    Takes the preprocessed OpenCV image and returns extracted text.
-    """
-    # detail=0 returns just the text strings in a list
-    result = reader.readtext(processed_img, detail=0)
-    return "\n".join(result)
+# CPU only (safe)
+model.to("cpu")
+
+def extract_text_trocr(image_bytes: bytes) -> str:
+    image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
+
+    pixel_values = processor(
+        image,
+        return_tensors="pt"
+    ).pixel_values
+
+    with torch.no_grad():
+        generated_ids = model.generate(
+            pixel_values,
+            max_length=256
+        )
+
+    text = processor.batch_decode(
+        generated_ids,
+        skip_special_tokens=True
+    )[0]
+
+    return text.strip()

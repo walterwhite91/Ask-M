@@ -1,46 +1,38 @@
-from preprocess import preprocess_image
-from ocr import extract_text_from_image
-from pdf_to_image import pdf_bytes_to_images
+# ocr_pipeline.py
+from ocr import extract_text_trocr
+from pdf_utils import pdf_bytes_to_images
+from line_segment import segment_lines_from_image_bytes
 import cv2
-import numpy as np
-
-def ocr_from_image_bytes(image_bytes: bytes) -> str:
-    processed = preprocess_image(image_bytes)
-    return extract_text_from_image(processed)
-
-
-def ocr_from_pdf_bytes(pdf_bytes: bytes) -> str:
-    pages = pdf_bytes_to_images(pdf_bytes)
-
-    full_text = []
-
-    for page_num, page_img in enumerate(pages, start=1):
-        # Page image is already grayscale numpy array
-        denoised = cv2.fastNlMeansDenoising(
-            page_img,
-            None,
-            h=30,
-            templateWindowSize=7,
-            searchWindowSize=21
-        )
-
-        thresh = cv2.adaptiveThreshold(
-            denoised,
-            255,
-            cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
-            cv2.THRESH_BINARY,
-            11,
-            2
-        )
-
-        page_text = extract_text_from_image(thresh)
-
-        full_text.append(f"\n--- Page {page_num} ---\n{page_text}")
-
-    return "\n".join(full_text)
+import io
 
 def run_ocr(file_bytes: bytes, filename: str) -> str:
+    texts = []
+
     if filename.lower().endswith(".pdf"):
-        return ocr_from_pdf_bytes(file_bytes)
+        pages = pdf_bytes_to_images(file_bytes)
+
+        for page_idx, page in enumerate(pages, start=1):
+            buf = io.BytesIO()
+            page.save(buf, format="PNG")
+            page_bytes = buf.getvalue()
+
+            lines = segment_lines_from_image_bytes(page_bytes)
+
+            page_text = []
+            for line in lines:
+                _, enc = cv2.imencode(".png", line)
+                line_text = extract_text_trocr(enc.tobytes())
+                if line_text.strip():
+                    page_text.append(line_text)
+
+            texts.append(f"--- Page {page_idx} ---\n" + "\n".join(page_text))
+
     else:
-        return ocr_from_image_bytes(file_bytes)
+        lines = segment_lines_from_image_bytes(file_bytes)
+        for line in lines:
+            _, enc = cv2.imencode(".png", line)
+            line_text = extract_text_trocr(enc.tobytes())
+            if line_text.strip():
+                texts.append(line_text)
+
+    return "\n".join(texts)
