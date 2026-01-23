@@ -1,0 +1,149 @@
+[
+  {
+    "subject": "CHEM 101",
+    "question": "a. Define azeotrope mixture. Show that $\\Delta T = K_{f}m$\nb. The freezing point depression constant for mercuric chloride, $HgCl_{2}$ , is 34.3. for a solution of $0.849\\mathrm{gm}$ of mercurous chloride, (empirical formula $HgCl$ ) in $50\\mathrm{gm}$ of $HgCl_{2}$ , the freezing point depression is $1.24^{\\circ}\\mathrm{C}$ . What is the molecular weight of mercurous chloride in this solution? What is its molecular formula?",
+    "mark": 6,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. State first law of thermodynamics. Show that $w_{free} > w_{rev}$ .\nb. Calculate the change in entropy that occurs when a sample containing $2.0\\mathrm{moles}$ of water is heated from $50.0^{\\circ}\\mathrm{C}$ to $150.0^{\\circ}\\mathrm{C}$ at $1\\mathrm{atm}$ pressure. The molar heat capacities for $H_{2}O(l)$ and $H_{2}O(g)$ are $18.0\\mathrm{Cal}K^{-1}\\mathrm{mol}^{-1}$ and $8.7\\mathrm{Cal}K^{-1}\\mathrm{mol}^{-1}$ , respectively, and the enthalpy of vaporization for water is $9.7\\mathrm{kCal / mol}$ at $100^{\\circ}\\mathrm{C}$ .",
+    "mark": 6,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. Define reaction rate. Derive integrated rate law for the reaction that follows second order kinetics.\nb. A mixture of $KBr$ and $NaBr$ weighing $0.560\\mathrm{gm}$ was treated with aqueous $Ag^{+}$ and all the bromide ion was recovered as $0.970\\mathrm{gm}$ of pure $AgBr$ . What was the fraction by weight of $KBr$ in the original sample?",
+    "mark": 6,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. Differentiate between reversible and irreversible process. Show that entropy of the universe for an irreversible process always increases.\nb. For the reaction: $C_{2}H_{5}I + OH^{-} \\rightarrow C_{2}H_{5}OH + I^{-}$ , $k = 5.03 \\times 10^{-2}M^{-1}sec^{-1}$ at $289\\mathrm{K}$ and $k = 6.71M^{-1}sec^{-1}$ at $333\\mathrm{K}$ . What is the activation energy of the reaction? What is its rate constant at $305\\mathrm{K}$ ?",
+    "mark": 6,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. State LeChatelier's principle and explain the effect of temperature for the following reaction.\n$N_{2}(g) + O_{2}(g) \\rightleftharpoons 2NO \\quad \\Delta H = 43.5 \\mathrm{kcal}$\nb. Hydrogen and iodine react at $699^{\\circ}\\mathrm{K}$ according to\n$H_{2}(g) + I_{2}(g) \\rightleftharpoons 2HI(g)$\nIf $1.00\\mathrm{mole}$ of $H_{2}$ and $1.00\\mathrm{mole}$ of $I_{2}$ are placed in a $1.00$ - liter vessel and allowed to react, what weight of hydrogen iodide will be present at equilibrium? (At $699^{\\circ}\\mathrm{K}$ , $K = 55.3$ , Atomic weight of Iodine = $126.9$ )",
+    "mark": 6,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "Give reasonable explanations for the following.\na. Acid base indicators respond to the change in pH of a solution.\nb. Aqueous solution of a nonvolatile solute boils at greater than $100^{\\circ}\\mathrm{C}$ at 1 atm pressure.\nc. Differential rate law is helpful to predict reaction mechanism.",
+    "mark": 6,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "Balance the following redox reactions using half-reaction method.\ni. $Zn + NO_3^- \\xrightarrow{} Zn^{++} + NH_4^+$ (in basic medium)\nii. $CuS + NO_3^- \\xrightarrow{} Cu^{++} + SO_4^{2-} + NO$ (in acidic medium)",
+    "mark": 6,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "Explain briefly on (ANY THREE) of the following\na. Electrochemical theory of rusting of iron\nb. Solution that displays positive deviation from Raoult's law\nc. Collision theory of gaseous reactions\nd. Characteristics of chemical equilibria\ne. Fuel cell and its benefits.",
+    "mark": 9,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. Evidences support that decomposition of di-nitrogen pentoxide $(N_{2}O_{5})$ follows the following mechanism. Based on steady state approximation derive rate law for this reaction.\n$N_{2}O_{5}\\xrightarrow{k_{1}}NO_{2}+NO_{3}$\n$NO_{2}+NO_{3}\\xrightarrow{k_{2}}NO+NO_{2}+O_{2}$\n$NO+NO_{3}\\xrightarrow{k_{3}}2NO_{2}$\nb. A sample of iron (At. Wt. 55.85) weighing 15.0 g was heated with $KClO_{3}$ in an evacuated container. The $O_{2}$ generated from the decomposition of $KClO_{3}$ converted some of the Fe to $Fe_{2}O_{3}$ . If the combined mass of Fe and $Fe_{2}O_{3}$ was 17.9 g, calculate the mass of $Fe_{2}O_{3}$ formed and the mass of $KClO_{3}$ decomposed.",
+    "mark": 8,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. Give an example of acidic buffer solution. Derive a Henderson-Hassel Balch equation for this buffer. Explain how does this buffer resist change in pH on addition of i. strong acid, ii. Strong base.\nb. Consider that a solution of hydrogen sulfide is added slowly to a mixture containing 0.1 M each of $Zn^{2 + }$ and $Fe^{2 + }$ in order to carry out selective precipitation. Which salt precipitates out first and why? Find the concentration of cation of first precipitate when the second salt just starts to precipitate? (Given $K_{sp}$ of $FeS$ , is $1.0 \\times 10^{-19}$ and $ZnS$ is $4.5 \\times 10^{-24}$ ).",
+    "mark": 8,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. What is Nernst equation? Write its application.\nb. Calculate $\\Delta H$ for the reaction: $N_{2}H_{4}(l) + O_{2}(g) \\longrightarrow N_{2}(g) + 2H_{2}O(l)$ using the following data:\n$2N H_{3}(g) + 3N_{2}O(g)\\longrightarrow 4N_{2}(g) + 3H_{2}O(l)\\qquad \\Delta H = -1010kJ$\n$N_{2}O(g) + 3H_{2}(g)\\longrightarrow N_{2}H_{4}(l) + H_{2}O(l)\\qquad \\Delta H = -317kJ$\n$2N H_{3}(g) + I_{2}O_{2}(g)\\longrightarrow N_{2}H_{4}(l) + H_{2}O(l)\\qquad \\Delta H = -143kJ$\n$H_{2}(g) + I_{2}O_{2}(g)\\longrightarrow H_{2}O(l)\\qquad \\Delta H = -286kJ$",
+    "mark": 8,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. For enzyme-catalyzed reactions that follow the mechanism, a graph of the rate as a function of [S] has the appearance as provided. Note that at higher substrate concentrations the rate no longer changes with\n$\\mathrm{E + S}\\xrightarrow{k_{1}}\\mathrm{ES}\\xrightarrow{k_{2}}\\mathrm{E + P}$\n[S]. Suggest a reason for this.\nb. Consider the reaction: $2SO_{2}(g) + O_{2}(g) \\to 2SO_{3}(g)$ ; carried out at $25^{\\circ}C$ , and 1 atm. Calculate $\\Delta H^{\\circ}$ , $\\Delta S^{\\circ}$ , $\\Delta G^{\\circ}$ and equilibrium constant $(K)$ , using the following data:",
+    "mark": 8,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. What is Raoult's law? Prove $\\Delta T = K_{f}.m$ (where the symbols have their usual meaning)\nb. A sample of iron (At. Wt. 55.85) weighing 15.0 g was heated with $\\mathrm{KClO}_{3}$ in an evacuated container. The $\\mathrm{O}_{2}$ generated from the decomposition of $\\mathrm{KClO}_{3}$ converted some of the Fe to $\\mathrm{Fe}_{2}\\mathrm{O}_{3}$ . If the combined mass of Fe and $\\mathrm{Fe}_{2}\\mathrm{O}_{3}$ was 17.9 g, calculate the mass of $\\mathrm{Fe}_{2}\\mathrm{O}_{3}$ formed and the mass of $\\mathrm{KClO}_{3}$ decomposed.",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. Give an example of acidic buffer solution. Derive a Henderson's Hasselbalch equation for this buffer. Explain how does this buffer resist change in pH on addition of i. strong acid, ii. Strong base.\nb. What are the molality and the molarity of a solution of ethanol, $\\mathrm{C}_{2}\\mathrm{H}_{5}\\mathrm{OH}$ , in water if the mole fraction of ethanol is 0.05? Assume that the density of the solution is 0.997 gm/ml.",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. Equal weights of zinc metal and iodine are mixed together and the iodine is completely converted to $\\mathrm{ZnI}_2$ . What fraction by weight of the original zinc remains unreacted? (A W of $\\mathrm{Zn} = 65.4$ ; A W of $1 = 126.9$ )\nb. Explain the importance of mole concept? Illustrate.",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. A solution is prepared by mixing $5.81 \\mathrm{~g}$ acetone $(C_3H_6O$ , molar mass $58.1 \\mathrm{~g} / \\mathrm{mol}$ ) and $41.9 \\mathrm{~g}$ chloroform $(CHCl_3$ , molar mass $119.4 \\mathrm{~g} / \\mathrm{mol}$ ). At $35^{\\circ} \\mathrm{C}$ , this solution has a total vapor pressure of 260. torr. Is this an ideal solution? The vapor pressures of pure acetone and pure chloroform at $35^{\\circ} \\mathrm{C}$ are 345 and 293 torr, respectively.\nb. Write the characteristic features of chemical or physical equilibria.",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. State LeChatelier's principle. Suggest four ways to obtain the maximum yield of $\\mathrm{SO}_3$ in the following reaction at equilibrium?\n$\\mathrm{SO}_2(\\mathrm{g}) + 1 / 2\\mathrm{O}_2(\\mathrm{g}) \\rightleftharpoons \\mathrm{SO}_3(\\mathrm{g}) \\quad \\Delta \\mathrm{H} = -23.5 \\mathrm{Kcal}$\nb. The equilibrium constant for the reaction $\\mathrm{CO}_2(\\mathrm{g}) + \\mathrm{H}_2(\\mathrm{g}) \\rightleftharpoons \\mathrm{CO}(\\mathrm{g}) + \\mathrm{H}_2\\mathrm{O}(\\mathrm{g})$ , is $0.10$ at $690^{\\circ} \\mathrm{~K}$ . What is the equilibrium pressure of each substance in a mixture prepared by mixing $0.50 \\mathrm{~mole}$ of $\\mathrm{CO}_2$ and $0.50 \\mathrm{~mole}$ of $\\mathrm{H}_2$ in a 5-liter flask at $690^{\\circ} \\mathrm{~K}$ ?",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. What is Raoult's law? Prove $\\Delta T_b = K_b \\cdot m$ (where the symbols have their usual meaning)\nb. Balance the following redox reaction be using half-reaction method.\n$\\mathrm{Zn} + \\mathrm{NO}_3^- \\longrightarrow \\mathrm{Zn}^{++} + \\mathrm{NH}_4^+ \\quad (\\mathrm{in} \\mathrm{basic} \\mathrm{medium})$",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. The initial rate of decomposition of acetaldehyde at $600^{\\circ}\\mathrm{C}$ $CH_{3}CHO(g)\\rightarrow CH_{4}(g) + CO(g)$ was measured at a series of concentrations with the following results:\ni. Write differential rate law\nii. Derive integrate rate law and an equation for half life\nb. Calculate the change in entropy that occurs when a sample containing 2.0 moles of water is heated from $50.0^{\\circ}\\mathrm{C}$ to $150.0^{\\circ}\\mathrm{C}$ at 1 atm pressure. The molar heat capacities for $H_{2}O(l)$ and $H_{2}O(g)$ are $18.0 \\mathrm{Cal} \\mathrm{K}^{-1} \\mathrm{mol}^{-1}$ and $8.7 \\mathrm{Cal} \\mathrm{K}^{-1} \\mathrm{mol}^{-1}$ , respectively, and the enthalpy of vaporization for water is $9.7 \\mathrm{kCal} / \\mathrm{mol}$ at $100^{\\circ}\\mathrm{C}$ .",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. What is steady state approximation? Derive rate law equation for a reaction whose mechanism is given as following.\n$A + M \\xrightarrow{k_{1}} A^{*} + M$\n$A^{*} \\xrightarrow{k_{2}} B + C$",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "a. State first law of thermodynamics. Derive a relation that shows how rate of a gaseous reaction depends on temperature using Arrhenius equation.\nb. Combustion reactions involve reacting a substance with oxygen. When compounds containing carbon and hydrogen are combusted, carbon dioxide and water are the products. Using the enthalpies of combustion for $C_{4}H_{4}(-2341 \\mathrm{kJ} / \\mathrm{mol}), C_{4}H_{8}(-2755 \\mathrm{kJ} / \\mathrm{mol}),$ and $H_{2}(-286 \\mathrm{kJ} / \\mathrm{mol})$ , calculate $\\Delta H$ for the reaction:\n$C_{4}H_{4}(g) + 2H_{2}(g) \\rightarrow C_{4}H_{8}(g)$",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C"
+  }
+]

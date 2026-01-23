@@ -1,0 +1,44 @@
+[
+  {
+    "subject": "EDRG 101",
+    "question": "On a map a rectangle of 125 cm x 200 cm represents an area of 6250 square kilometers. Draw a backward vernier scale to show decameter and long enough to measure up to 7km. Show a distance of 5.43 km and 57 dm on it.",
+    "mark": 12,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "EDRG 101",
+    "question": "A circle of diameter 40 mm rolls outside a circular arc of radius 60 mm for one and half revolution. Draw the locus of a point, lying at a distance of 30 mm from center of rolling circle.",
+    "mark": 12,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "EDRG 101",
+    "question": "A square prism 35 mm sides of base and 60 mm axis length rests on HP on one of its corners of the base such that the two base edges containing the corner on which it rests make equal inclinations with HP. Draw the projections of the prism when the axis is inclined to HP at $40^{\\circ}$ and to VP at $30^{\\circ}$ .",
+    "mark": 12,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "EDRG 101",
+    "question": "A rectangular plot of land measuring 1.28 hectors is represented on a map by a similar rectangle of 8 sq.cm. Calculate the RF of the scale. Draw a diagonal scale to read single meter. Show a distance of 224m and 438m on this scale.",
+    "mark": 6,
+    "paper_type": "internal",
+    "section": "B"
+  },
+  {
+    "subject": "EDRG 101",
+    "question": "Draw the elliptical curve passing through the points P, A and B with following description. Draw tangent to the conic at any point on the curve. AB represents the major axis of an ellipse and measures 24cm. Any point P at a distance of 18cm from A and 10cm from B. Give all possible description and dimensions properly. [Construct curve in scale 1:2]",
+    "mark": 6,
+    "paper_type": "internal",
+    "section": "B"
+  },
+  {
+    "subject": "EDRG 101",
+    "question": "A thin circular disc of 50 mm diameter is allowed to roll without slipping from upper edge of sloping plank which is inclined at 15° with the horizontal plane. Draw the curve traced by the point on the circumference of the disc.",
+    "mark": 6,
+    "paper_type": "internal",
+    "section": "B"
+  }
+]
