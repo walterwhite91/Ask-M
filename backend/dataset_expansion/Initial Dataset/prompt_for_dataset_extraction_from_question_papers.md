@@ -23,3 +23,12 @@ Return a JSON array of objects. Each object must contain:
 4. **LaTeX Formatting:** Use LaTeX ($ ... $) for all mathematical expressions, variables (like $R$, $M$, $P$, $\theta$), and scientific formulas (e.g., $P + \rho gh + \frac{1}{2}\rho v^2 = \text{constant}$).
 5. **No Noise:** Do not include the primary question numbers (1, 2, 3) at the start of the "question" field.
 6. **Output Format:** Return ONLY a valid JSON array. Do not include any introductory text, markdown explanations, or concluding remarks.
+## Critical Reminders
+1. **NO Section A** - only B and C
+2. **Internal Papers**: B=2.5 marks, C=5 marks
+3. **End-Semester Papers**: B=3 marks, C=5 marks  
+4. **Separate OR questions** into different objects
+5. **Keep sub-parts together** in single question string
+6. **Use LaTeX** for all mathematical expressions
+7. **Remove question numbers** but keep sub-part labels
+8. **Always return pure JSON** - no additional text
