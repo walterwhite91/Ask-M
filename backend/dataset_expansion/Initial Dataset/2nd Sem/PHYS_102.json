@@ -1,0 +1,534 @@
+[
+  {
+    "subject": "PHYS 102",
+    "question": "Find the electric field a distance $2$ above the center of a flat circular disk of radius $R$, which carries a uniform surface charge $\\sigma$. What does your formula give in the limit $R \\rightarrow \\infty$? Also check the case $z \\rightarrow R$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "A short solenoid (length $l$ and radius $a$, with $n_1$ turns per unit length) lies on the axis of a very long solenoid (radius $b$, $n_2$ turns per unit length). Current $I$ flows in the short solenoid. What is the flux through the long solenoid? What is the mutual inductance?",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Show that the electric field of a (pure) dipole is given by:\n$\\vec{E}_{\\mathrm{dip}}(\\vec{r}) = \\frac{1}{4\\pi\\epsilon_0}\\frac{1}{r^3} [3(\\vec{p}\\cdot \\vec{r})\\vec{r} -\\vec{p} ]$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Find the magnetic field on the axis of a tightly wound solenoid (helical coil) consisting of $n$ turns per unit length wrapped around a cylindrical tube of radius $a$ and carrying current $I$. Express your answer in terms of $\\theta_1$ and $\\theta_2$. What is the field on the axis of an infinite solenoid?",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "What is atomic polarizability? Derive the Clausius-Mossotti equation.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Distinguish between nuclear fusion and nuclear fission with suitable examples.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "What is superconductivity? Define and explain the Meissner effect in superconductors. Also, describe the effect of magnetic field on superconductors.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "State and prove Poynting's theorem and hence define Poynting vector.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Define magnetic vector potential. Derive an expression for the magnetic vector potential in terms of the volume current density.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Define Q-value of a nuclear reaction. Derive an expression for the Q-value of the nuclear reaction $x + X \\rightarrow y + Y$ in terms of kinetic energies of the incident and product particles and masses of the various particles and nuclei.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "What is meant by Raman Effect? Explain the production of Raman spectra with a schematic diagram. Also explain the quantum mechanical treatment of Raman Effect.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Show that divergence of curl of a vector and curl of gradient of a scalar are always zero.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Show that the energy density stored in a magnetic field $B$ is given by:\n$U_{B} = \\frac{1}{2\\mu_{0}} B^{2}$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Explain how Maxwell fixed up Ampere's law. Derive the wave equation for $E$ and $B$ for electromagnetic waves in vacuum.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Find the electric potential inside and outside of a uniformly charged spherical shell of radius $R$ which carries surface charge density $\\sigma$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Derive the expressions for torque and energy of a magnetic dipole of dipole moment $m$ in a magnetic field $B$.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "State and prove the reciprocity theorem for the mutual inductance of two loops.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "A spherical cavity is made inside a uniformly polarized material of polarization $P$. Show that the electric field at the center of the cavity is: $\\vec{E} = \\frac{\\vec{P}}{3\\epsilon_0}$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Show that the volume bound current density is equal to the curl of magnetization: $\\vec{J}_b = \\nabla \\times \\vec{M}$.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Find the energy stored (over all space) in a uniformly charged solid sphere of radius $R$ and total charge $q$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "State Faraday's laws of electromagnetic induction. Obtain the flux rule for motional emf: $\\nabla \\times \\vec{E} = -\\frac{\\partial \\vec{B}}{\\partial t}$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "A steady current $I$ flows down a long cylindrical wire of radius $R$. Find the magnetic field inside and outside the wire, if the current is distributed in such a way that $J$ is proportional to $r$, the distance from the axis.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Give Langevin's theory of paramagnetism and show that the magnetic susceptibility of paramagnetic material is inversely proportional to absolute temperature.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Derive the Neumann formula for the mutual inductance between two loops.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Find the electric field (magnitude and direction) a distance $z$ above the midpoint between two charges $+q$ and $-q$, a distance $d$ apart. Check that your result is consistent with what you would expect when $z \\gg d$.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Show that $\\vec{F} = yz \\vec{i} + zx \\vec{j} + xy \\vec{k}$ can be written both as the gradient of a scalar and as the curl of a vector.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Show that curl of electric field due to stationary charge is always zero.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Define polarization? Show that volume bound charge density, $\\rho_b = \\nabla \\cdot \\vec{P}$.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Obtain an expression for potential energy of the configuration of three charges and generalize the result for a system of $n$ point charges.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Define Q-value of a nuclear reaction. Derive an expression for the Q-value of the nuclear reaction $x + X \\rightarrow Y + y$ in terms of kinetic energies of the incident and product particles and masses of the various particles and nuclei. Assume the target nucleus to be at rest in the laboratory. Mention the case when the product particle emerges at right angles to the incident direction.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "What is superconductivity? Define and explain the Meissner effect in superconductors. Also, describe the effect of magnetic field on superconductors.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Find the magnetic vector potential of a finite segment of a straight wire carrying a current $I$. Also calculate the magnetic field associated with this potential.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "What is electric dipole? Find the electric potential and field at any point due to the short dipole of dipole moment $p$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "State Faraday's laws of electromagnetic induction. Obtain the flux rule for motional emf $\\nabla \\times \\vec{E} = -\\frac{\\partial \\vec{B}}{\\partial t}$ and show that...",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Define surface current density $K$ and volume current density $J$. Show that volume current density obeys the continuity equation $\\nabla \\cdot \\mathbf{J} + \\frac{\\partial \\rho}{\\partial t} = 0$",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "What is magnetic dipole moment? Derive an expression for the torque on a magnetic dipole of dipole moment $m$ placed in a uniform magnetic field $B$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Define the term half-life in radioactive decay. Derive the formula for half-life in terms of the decay constant.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "What are the key differences between nuclear fission and nuclear fusion in terms of process, fuel sources, and applications?",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "A capacitor between the plates, at a distance $r$ ($r < a$) from the center.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "The Q value of the $\\mathrm{Na}^{1}\\mathrm{I}(\\mathrm{n},\\alpha)\\mathrm{II}^{1}\\mathrm{I}$ reaction is $-5.4$ MeV. Determine the threshold energy of the neutrons for this reaction. (Given that $\\mathrm{Na}^{1}\\mathrm{I} = 22.9898$u $\\mathrm{d}_{1} = 1.00865\\mathrm{d}_{1}$)",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "A metal sphere of radius $a$ carries a charge $Q$. It is surrounded, out to radius $b$, by linear dielectric material of permittivity $\\epsilon$. Find the potential at the center (relative to infinity).",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "What is meant by carrier mobility and electrical conductivity? Establish the relation between them.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "What is flux rule for motional emf? Prove the flux rule for motional emf for an arbitrary loop moving with arbitrary velocity in an arbitrary magnetic field.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Establish the Maxwell's equations in material medium.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "A nuclear reactor is developing energy at the rate of $3000$ kW. How many atoms of $\\mathrm{U}^{1}\\mathrm{I}$ undergo fission per second? How many kilograms of $\\mathrm{U}^{1}\\mathrm{I}$ would be used in $1000$ hours of operation assuming that on an average energy of $200$ MeV is released per fission?",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Explain the working principle of G.M. counter with a well labeled diagram.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Calculate the energy liberated on the fusion of $1$kg of deuteron. (Given mass of deuteron = $2.0147$u and $1$u = $931$ MeV).",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Define curl of a vector field. Express curl in Cartesian coordinate.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "What do you mean by hysteresis loss? Show that hysteresis loss is equal to the area enclosed by B-H hysteresis loop.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Define self-inductance. Show that the magnetic energy stored in a unit volume of space having magnetic field $B$ is $\\frac{B^2}{2\\mu_0}$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "If $\\nabla^2 \\phi = 0$, Show that $\\nabla \\phi$ is both solenoidal and irrotational.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Find the electric field a distance $z$ above one end of a straight-line segment of length $L$ that carries a uniform line charge $\\lambda$. Check that your formula is consistent with what you expect for the case $z \\gg L$",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Find the potential inside, on and outside a spherical shell of radius $R$, which carries a uniform surface charge $\\sigma$",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Define vector potential corresponding to a magnetic field. Show that the energy stored per unit volume in a magnetic field $B$ is $\\frac{B^2}{2\\mu_0}$",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "If $B$ is uniform, show that $A(r) = -\\frac{1}{2}(r \\times B)$ works. That is, check that $\\nabla \\cdot A = 0$ and $\\nabla \\times A = B$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Imagine thin wires that connect to the center of the parallel plates (capacitor). The constant current $I$ is maintained to flow. The radius of the capacitor is $a$, and the separation of the plates is $w \\ll a$. Assume that the current flows out over the plates in such a way that the surface charge is uniform, at any given time, and is zero at $t = 0$.\n(a) Find the displacement current through a circle of radius $s$ in the plane midway between the plates.\n(b) Find the magnetic field at a distance $s$ from the axis.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "(a) Find the magnetic field at the center of a square loop, which carries a steady current $I$. Let $R$ be the distance from center to side.\n(b) Find the field at the center of a regular $n$-sided polygon, carrying a steady current $I$. Again, let $R$ be the distance from the center to any side.\n(c) Check that your formula reduces to the field at the center of a loop in the limit $n \\rightarrow \\infty$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Show that the magnitude of electric field at a point due to a short dipole of dipole moment $p$ is given by $E(r,\\theta) = \\frac{p}{4\\pi\\epsilon_0 r^3}\\sqrt{3\\cos^2\\theta + 1}$, where $r$ is the magnitude of position vector of the point from the dipole center and $\\theta$ is the angle between position vector and dipole moment.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Show that the electric field acting on a molecule of a nonpolar isotropic homogenous dielectric is given by $E_m = E + \\frac{P}{3\\epsilon_0}$, where $E$ is the macroscopic electric field in the dielectric. Hence deduce Clausius-Mossotti equation relating the molecular polarisability with the dielectric constant.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Sketch a typical hysteresis curve for a ferromagnetic material and explain. Show that when a magnetic field is applied on a diamagnetic substance, the change in the dipole moment of an orbiting electron is given by $\\Delta m = -\\frac{e^2 r^2}{4m_e}B$, where the symbols have their usual meanings.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "State Faraday's laws of electromagnetic induction. Obtain the flux rule for motional emf and show that $\\nabla \\times E = -\\frac{\\partial B}{\\partial t}$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "State the law of radioactive decay. Deduce the relation $N = N_0 e^{-\\lambda t}$, where symbols have their usual meanings. Sketch a graph to illustrate radioactive decay. If a sample of a radioactive isotope has a half-life of $1$ day, how much of it remains at the end of second day?",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "What is superconductivity? Explain Meissner effect. A superconducting tin has a critical temperature of $3.7$ K in zero magnetic field and a critical field of $0.0306$ T at $0$ K. Find the critical field at $2$ K.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Explain the work-energy theorem of electrodynamics by mentioning the Poynting vector.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "State Biot-Savart law. Using the law, find the magnetic field at the center of a circular loop of radius $R$ which carries a steady current $I$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Define magnetic dipole moment and magnetization. Derive the expressions for torque and energy of a magnetic dipole in term of its dipole moment and magnetic field in which it is placed.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Define self-inductance. Show that the magnetic energy stored in a unit volume of space having magnetic field $B$ is $\\frac{B^2}{2\\mu_0}$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "What is an electric dipole? Derive expression for the electric potential and the electric field due to an electric dipole at any point.\nObtain expression for potential energy of the configuration of three charges and generalize the result for a system of $n$ point charges. Converting the result for a continuous charge distribution, show that the energy density in an electric field $E$ is $\\frac{\\epsilon_0}{2}E^2$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Define Poynting vector. Deduce theoretically Poynting's Theorem for the flow of energy in an electromagnetic field.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Define Q-value of a nuclear reaction. Derive an expression for the Q-value of the reaction $X(x,y)Y$ in terms of kinetic energies of the incident and product particles and masses of the various particles and nuclei. Assume the target nucleus to be at rest in the laboratory. Discuss the case when the product particle emerges at right angles to the incident direction.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Find the magnetic vector potential of a finite segment of straight wire carrying a current $I$. Calculate the magnetic field associated with this vector potential.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Show that a current loop with area $A$ and current $I$ in a uniform magnetic field $\\vec{B}$ experiences no net magnetic force, but does experience a magnetic torque $\\vec{\\tau} = \\vec{m} \\times \\vec{B}$.",
+    "mark": 2.5,
+    "paper_type": "internal",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Define half-life of a radioactive substance and derive the relation $T_{1/2} = \\frac{\\ln 2}{\\lambda}$, where $T_{1/2}$ is the half-life and $\\lambda$ is the decay constant.",
+    "mark": 2.5,
+    "paper_type": "internal",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "A superconducting tin has a critical temperature of $3.7$ K in zero magnetic field and a critical field of $0.0306$ T at $0$ K. Find the critical field at $2$ K.",
+    "mark": 2.5,
+    "paper_type": "internal",
+    "section": "B"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "What does the Biot-Savart law describe? Write its mathematical form. Show that the magnitude of magnetic field on the axis of a tightly wound solenoid (helical coil) consisting of $n$ turns per unit length wrapped around a cylindrical tube of radius '$a$' and carrying current $I$ is given by $B = \\frac{1}{2} \\mu_{0} n I (\\cos \\theta_{2} - \\cos \\theta_{1})$",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "A long coaxial cable carries current $I$ (the current flows down the surface of the inner cylinder, radius $a$, and back along the outer cylinder, radius $b$). Find the magnetic energy stored in a section of length $l$. Also find coefficient of self-induction.",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C"
+  }
+]

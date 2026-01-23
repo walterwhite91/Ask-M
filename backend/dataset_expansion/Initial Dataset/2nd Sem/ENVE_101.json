@@ -1,0 +1,520 @@
+[
+  {
+    "subject": "ENVE 101",
+    "question": "A river during the dry season has a sediment load of up to $1500$ mg/L. $75\\%$ Water from this river is channeled through a pump station and delivered to a water treatment facility. The flow rate at the pump station is $30$ liters per second (lps). Calculate the mass flow rate of sediment entering the treatment facility and determine the concentration of sediments in the treated water if the facility removes $85\\%$ of suspended solids.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "A city is experiencing water shortages despite receiving adequate rainfall annually. Analyze the role of different hydrological cycle processes that might be affecting water availability. Suggest engineering solutions to improve water conservation and sustainable water management.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Explain the significance of different water quality parameters (physical, chemical, and biological) in ensuring safe drinking water and how they influence the design and operation of a water treatment plant.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Differentiate between mass extensive and mass intensive systems.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Differentiate between arithmetical and geometric increase method for population forecast.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Differentiate between alley collection system and set-out collection system.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Write short notes on control of noise pollution.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Write short notes on criteria pollutants.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Write short notes on transfer stations.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "A kitchen with volume $500m^3$ operating for an hour is using $10$ wood burning stoves, each using $3kg$ of wood. $1kg$ of wood emits $1.4mg$ of harmful chemical (CO). The CO is converted to $\\mathbb{C}\\mathbb{O}_2$ with reaction rate coefficient of $0.35$/hr. Fresh air enters with the rate of $1500m^3 /hr$ and stale air leaves at the same rate. Calculate the steady state concentration of harmful chemical using mass balance method.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Determine the population of a city by $2044$ by arithmetical increase methods based on historical data. Estimate water demand using arithmetic and geometric projection methods.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Calculate the annual evapotranspiration (ET in mylar) for a river basin of area $11839km^2$ having average annual runoff $144.4m^3 /s$. The average annual precipitation is $1.08m$. Assume no loss by infiltration and zero net change in water storage.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "What are the three types of Environmental assessment prevailed in projects of Nepal? Explain in brief.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Differentiate between IEE and EIA.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Write short notes on engineering project.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Write short notes on hydraulic retention time.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "What are the parameters considered while taking engineering decisions for a successful completion of engineering project?",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Briefly explain three tiers of environmental studies of the projects conducted in Nepal as per Environmental Protection Act (EPA), $2076$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Define flow rate and hydraulic retention time (HRT). Derive the equation that defines the HRT of fluid in a cubical tank.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Define Recycle, Bypass and Purge streams with flow diagram.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "With a schematic diagram define catchment area. Compute the average annual runoff from the catchment given precipitation and evapotranspiration data.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Estimate the total moisture content, total dry mass and overall density of solid sample obtained in a landfill site given composition data.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Based on a public notice from Department of Environment, answer questions about Air Quality Standards, sources of air pollution, environmental laws, health impacts, and seasonal variation in air pollution.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Write short notes on Nepal Engineering Council (NEC).",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Explain the statement \"Environmental Engineering is problem focused and utilize the knowledge of several science and engineering discipline.\" Differentiate between science and engineering.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "A textile company is using an oxidation ditch to treat organic material in wastewater. Draw the mass balance diagram and estimate the decay coefficient of organics given pond characteristics and removal efficiency.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Explain about the different stages of life cycle methodology with figure. Explain the difference between life cycle thinking and system thinking.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Draw and explain the carbon cycle. Estimate the residence time of water and overflow rate in a small sedimentation tank given dimensions and flow rate.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "A drinking water treatment plant uses a circular sedimentation tank to treat river water. Calculate the settling velocity of silt particles and determine if the tank will remove all particles.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Draw MECO matrix for office chair or white board marker by assuming the necessary information.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "State and explain the different principles of green engineering. Provide two obligatory and positioning properties of the office chair.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Define profession and sustainability of project. Advise on whether groundwater from a new well can be used for domestic purposes.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Give approximate value and appropriate units for various measurements including diameter of a dot, tree height, calculator volume, sugar concentration in tea, and urban air basin distance.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Based on the nitrogen cycle diagram, fill a table identifying sources, sinks, processes, and nitrogen types at different stages.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Draw mass balance diagrams for solid and liquid flow streams for a landfill site given waste receipt, leachate production, and rainfall data.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Explain the potential benefits with increasing degrees of design freedom shown in a diagram, describing the difference between different levels with examples.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Draw length scales of various objects (Mt. Everest, rain drop, river width, clay particle, calculator length) on a logarithmic scale from $10^{-5} \\text{m}$ to $10^{4} \\text{m}$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Calculate water loss from a dripping faucet at one drop per second, reporting in proper units for daily and annual loss.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Calculate the discharge of Bagnati River needed to reduce the BOD concentration of wastewater by half, given population, wastewater generation rate, and mixing conditions.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Calculate settling velocity, Reynolds number, horizontal velocity, and overflow rate for a sedimentation tank with given dimensions and flow rate.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Answer questions about scope definition in an LCA study based on a provided paragraph about detergent composition and treatment assumptions.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Analyze a road project notice board to determine scope of work, per kilometer cost, land area, and green engineering aspects.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Estimate government financial support needed for latrine construction in earthquake-affected districts based on damage assessment and construction costs.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Compute the total mass of sulfur in oceans and estimate its residence time given sulfate concentration, ocean mass, and sulfur flow rates.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Compute the BOD of a river downstream of a wastewater discharge point, assuming complete mixing, given treatment plant output, BOD values, and river flow.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Design rectangular sedimentation basins for municipal wastewater treatment given flow rate, depth, overflow rate, and parallel configuration.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Create a table indicating obligatory and positioning properties of a white board marker based on information printed on its casing.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Draw a labeled schematic diagram of either a carbon cycle or a phosphorus cycle in nature.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Design an activated sludge system for secondary wastewater treatment given flow rate, BOD values, kinetic parameters, and reactor configuration requirements.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "For a selected product (cup, soap, chalk, hand towel, or micro-bus), identify its function, obligatory properties, positioning properties, and alternative products providing similar services.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Provide key suggestions for SMART GROWTH development in the emerging urban corridor between Nausibe and Panchkhal to address concerns about haphazard urban growth.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Explain how development in earthquake-hit areas of Nepal should incorporate Build Back Better (BBB) and green engineering concepts based on a diagram showing effects of investment on Disaster Risk Reduction.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "An electrostatic precipitator with an area of collector plate $6000m^2$ is $97$ percent efficient in treating $200m^3 /s$ of flue gas from a power plant. The owner of the power plant decides to achieve incremental improvements in the collection efficiency of the collector plate but there is only $0.1$ ha of land remaining inside the power plant boundary. The owner needs to confirm weather is it feasible to increase the $99$ percent or he has to limit the increment to $98\\%$. Determine the area of collector plate for the both cases and suggest him the appropriate efficiency for incremental improvements.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Explain the physical and chemical properties of solid waste?",
+    "mark": 4,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Describe the Properties of Hazardous waste.",
+    "mark": 4,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Briefly explain the concept of Life Cycle Assessment (LCA). What are its key stages, and how does it help in minimizing environmental impact and improving resource efficiency?",
+    "mark": 4,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Determine combined discharge from the following data: Area to be served $= 6,000,000$ sq.m., Population density $= 1084$ per ha, Time of entry $= 5$ min, Time of flow $= 18$ min, Rate of water supply $= 170$ Iped, Permeability $= 50\\%$, Peak factor $= 3$, Time of concentration $= \\text{Sum of time of entry and time of flow}$. Also, calculate the cross sectional area of circular sewer if velocity of flow is $1.5$ m/s and the diameter of sewer.",
+    "mark": 6,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Problems involving mass balance calculations for various environmental systems (river contamination, air quality, wastewater treatment).",
+    "mark": 6,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Differentiate between cyclone separators and electrostatic precipitators.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Explain the Monod equation and its importance in predicting bacterial growth and substrate utilization in biological treatment processes.",
+    "mark": 6,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Explain the hydrological cycle and its key processes, often with application to water resource management.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Explain the principles of Green Engineering and their role in promoting sustainability.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Draw and explain the components of sewer systems.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Differentiate between separate and combined sewer systems.",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Life Cycle Assessment problems involving white board markers, including functional unit determination and environmental impact comparison.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Estimate the concentration of $\\mathbf{SO}_2$ in urban air using box model approach, particularly for Kathmandu Valley.",
+    "mark": 6,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Draw the schematic diagram of the sewer system and explain its components.",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "What are the criteria pollutants? Write the differences between the electrostatic precipitator (ESP) and the Cyclone.",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Explain different types of solid waste.",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Explain the purpose and goals of Life Cycle Assessment (LCA) and list the four stages involved in conducting an LCA. How does the concept of \"cradle to grave\" relate to the assessment?",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "An industrial plant discharges water that contains trace amounts of lead into a nearby stream. Upstream from the plant, the concentration of the lead is $0.020 \\mathrm{mg / L}$ and the water flows at a rate of $10. \\mathrm{m}^3 /\\mathrm{s}$. Downstream from the plant, the concentration of lead must not exceed $0.050 \\mathrm{mg / L}$. If the effluent from the plant is known to flow at a rate of $1.0 \\mathrm{m}^3 /\\mathrm{s}$, what is the maximum allowable concentration of lead in the plant's effluent?",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "A city has a projected population of $50,000$ spread over an area of $20$ ha, provided with a water supply of $110$ lpc. Find the design discharge for the combined sewer. Assume an impermeability factor of $0.5$ and a time of concentration of $15$ minutes.",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Estimate the total moisture content, total dry mass, and overall density of the solid waste sample obtained in a landfill site.\n\nComponents | % by mass | Dry mass% | Density kg/m³\nFood waste | 20 | 30 | 290\nPaper | 40 | 9 | 485\nCardboard | 10 | 9 | 550\nPlastics | 10 | 9 | 865\nGarden trimmings | 10 | 40 | 105\nWood | 5 | 80 | 240\nTins, Cans | 5 | 9 | 790",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "B"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "Differentiate between any two of the following.\n(a) Black water and grey water\n(b) IEE and EIA\n(c) Conservancy or dry system and water carriage system",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "B"
+  }
+]
