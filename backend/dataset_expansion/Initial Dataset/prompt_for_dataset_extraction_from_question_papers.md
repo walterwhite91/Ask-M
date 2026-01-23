@@ -25,6 +25,9 @@ Return a JSON array of objects. Each object must contain:
 - **Labels**: Preserve sub-labels (e.g., "(a)", "(b)") but do NOT include the main question number (e.g., "4.", "9.")
 
 ### 3. Marks Assignment Logic
+<!--
+Change this as per your requirement. We kept this as section A contains MCQs only. For extracting MCQs refer to the other file in this directory.
+-->
 Assign marks based on this STRICT hierarchy:
 
 **Primary Rule**: If a specific mark is written directly next to a question, use that exact number
@@ -92,7 +95,11 @@ Assign marks based on this STRICT hierarchy:
     "section": "B"
   }
 ]
-Critical Reminders
+```
+## Critical Reminders
+<!--
+Change this as per your requirement. We kept this as section A contains MCQs only. For extracting MCQs refer to the other file in this directory.
+-->
 NO Section A - only B and C
 Internal Papers: B=2.5 marks, C=5 marks
 End-Semester Papers: B=3 marks, C=5 marks
@@ -101,20 +108,3 @@ Keep sub-parts together in single question string
 Use LaTeX for all mathematical expressions
 Remove question numbers but keep sub-part labels
 Always return pure JSON - no additional text
-Example Output
-Here are 2 example objects showing correct structure:
-json
-{
-  "subject": "PHYS101",
-  "question": "Find the center of mass of a homogeneous semicircular plate of radius R.",
-  "mark": 2.5,
-  "paper_type": "internal",
-  "section": "B"
-},
-{
-  "subject": "PHYS101",
-  "question": "Derive Newton's second law for system of variable mass.",
-  "mark": 2.5,
-  "paper_type": "internal",
-  "section": "B"
-}
