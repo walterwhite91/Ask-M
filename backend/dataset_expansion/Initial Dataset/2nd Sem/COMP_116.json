@@ -190,13 +190,6 @@
   },
   {
     "subject": "COMP 116",
-    "question": "Describe types of inheritance and their visibility rules.",
-    "mark": 2.5,
-    "paper_type": "internal",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
     "question": "Create a DigitalWallet base class with derived Transaction class.",
     "mark": 5,
     "paper_type": "endsem",
@@ -219,20 +212,6 @@
   {
     "subject": "COMP 116",
     "question": "What is polymorphism? Differentiate compile-time and runtime polymorphism.",
-    "mark": 5,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "What is polymorphism? Differentiate compile-time and runtime polymorphism.",
-    "mark": 5,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "Explain virtual functions and pure virtual functions.",
     "mark": 5,
     "paper_type": "endsem",
     "section": "C"
@@ -274,20 +253,6 @@
   },
   {
     "subject": "COMP 116",
-    "question": "What is operator overloading? Why is it needed?",
-    "mark": 5,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "Explain friend functions in operator overloading.",
-    "mark": 5,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "COMP 116",
     "question": "Explain friend functions in operator overloading.",
     "mark": 5,
     "paper_type": "endsem",
@@ -323,20 +288,6 @@
   },
   {
     "subject": "COMP 116",
-    "question": "Define generic programming. Why are templates used?",
-    "mark": 5,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "Differentiate function templates and class templates.",
-    "mark": 5,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "COMP 116",
     "question": "Differentiate function templates and class templates.",
     "mark": 5,
     "paper_type": "endsem",
@@ -359,20 +310,6 @@
   {
     "subject": "COMP 116",
     "question": "Why is exception handling necessary? Explain try, catch, and throw.",
-    "mark": 3,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "Why is exception handling necessary? Explain try, catch, and throw.",
-    "mark": 5,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "Handle \"divide-by-zero\" and array out-of-bounds exceptions.",
     "mark": 3,
     "paper_type": "endsem",
     "section": "B"
@@ -407,13 +344,6 @@
   },
   {
     "subject": "COMP 116",
-    "question": "What is an abstract class? Why does it need a pure virtual function?",
-    "mark": 5,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "COMP 116",
     "question": "Explain late binding and early binding.",
     "mark": 3,
     "paper_type": "endsem",
@@ -432,7 +362,7 @@
     "mark": 5,
     "paper_type": "endsem",
     "section": "C"
-  } ,
+  },
   {
     "subject": "COMP 116",
     "question": "What is polymorphism? How can we achieve dynamic polymorphism in C++? Explain with appropriate syntax.",
@@ -464,34 +394,6 @@
   {
     "subject": "COMP 116",
     "question": "How Object Oriented Programming (OOP) differs from Structured programming? Explain any four major features of OOP in brief.",
-    "mark" : 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "How Object Oriented Programming (OOP) differs from Structured programming? Explain any four major features of OOP in brief.",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "How Object Oriented Programming (OOP) differs from Structured programming? Explain any four major features of OOP in brief.",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "List and explain four key features of Object-Oriented Programming in C++. How do these features improve software development compared to procedural programming?",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "List and explain four key features of Object-Oriented Programming in C++. How do these features improve software development compared to procedural programming?",
     "mark": 4,
     "paper_type": "endsem",
     "section": "B"
@@ -512,20 +414,6 @@
   },
   {
     "subject": "COMP 116",
-    "question": "Explain in brief why Object oriented programming is an appropriate paradigm for real world modeling applications.",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "What is a constructor? Is it mandatory to have a constructor in a class? Can you have more than one constructor in a class, explain it with example?",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
     "question": "What is a constructor? Is it mandatory to have a constructor in a class? Can you have more than one constructor in a class, explain it with example?",
     "mark": 4,
     "paper_type": "endsem",
@@ -540,28 +428,7 @@
   },
   {
     "subject": "COMP 116",
-    "question": "Write in brief about the new delete operator and its significance in constructor and destructor.",
-    "mark": 8,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "COMP 116",
     "question": "Implement a new delete operator to dynamically allocate (in constructor) and deallocate (in destructor) memory for an array data member of a class in an appropriate program.",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "Implement a new delete operator to dynamically allocate (in constructor) and deallocate (in destructor) memory for an array data member of a class in an appropriate program.",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "Describe the syntax of multiple inheritance. When do we use such an inheritance?",
     "mark": 4,
     "paper_type": "endsem",
     "section": "B"
@@ -582,31 +449,10 @@
   },
   {
     "subject": "COMP 116",
-    "question": "What is the significance of inheritance in Object Oriented programming? Briefly describe the diamond problem in inheritance.",
-    "mark": 3,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
     "question": "What is a virtual base class in C++? How does it help in resolving the diamond problem in multiple inheritance?",
     "mark": 4,
     "paper_type": "endsem",
     "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "What is a virtual base class in C++? How does it help in resolving the diamond problem in multiple inheritance?",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "Write in brief about two level access specifiers in different types of access specific inheritance.",
-    "mark": 8,
-    "paper_type": "endsem",
-    "section": "C"
   },
   {
     "subject": "COMP 116",
@@ -624,28 +470,7 @@
   },
   {
     "subject": "COMP 116",
-    "question": "How do access specifiers affect inheritance in C++? Explain how public, private, and protected inheritance modify the accessibility of base class members in a derived class.",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
     "question": "What does polymorphism mean in object oriented programming? How is polymorphism achieved both in compile time and run time? Explain it with suitable examples. Differentiate compile time polymorphism with run time polymorphism.",
-    "mark": 8,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "What does polymorphism mean in object oriented programming? How is polymorphism achieved both in compile time and run time? Explain it with suitable examples. Differentiate compile time polymorphism with run time polymorphism.",
-    "mark": 8,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "How does dynamic binding work in C++? What role do base class pointers play in achieving runtime polymorphism?",
     "mark": 8,
     "paper_type": "endsem",
     "section": "C"
@@ -666,20 +491,6 @@
   },
   {
     "subject": "COMP 116",
-    "question": "Write a program to overload the unary operator ++ as a prefix increment operator.",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "What is the purpose and benefits of Operator overloading in Object Orientation Programming. Discuss in brief about use of friend function in operator overloading.",
-    "mark": 8,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "COMP 116",
     "question": "What is the purpose and benefits of Operator overloading in Object Orientation Programming. Discuss in brief about use of friend function in operator overloading.",
     "mark": 8,
     "paper_type": "endsem",
@@ -688,20 +499,6 @@
   {
     "subject": "COMP 116",
     "question": "You are given a class Complex that represents complex numbers. Overload the + operator to add two complex numbers.",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "You are given a class Complex that represents complex numbers. Overload the + operator to add two complex numbers.",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "Define generic programming. Why templates are used in programming? Explain it with example.",
     "mark": 4,
     "paper_type": "endsem",
     "section": "B"
@@ -722,28 +519,7 @@
   },
   {
     "subject": "COMP 116",
-    "question": "Write a program implementing function template which returns greatest among three numbers. Pass the arguments as reference variables.",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
     "question": "Discuss in brief about generic programming. Write a syntax for a generic class and a member function of the generic class with the definition outside of the class.",
-    "mark": 8,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "Discuss in brief about generic programming. Write a syntax for a generic class and a member function of the generic class with the definition outside of the class.",
-    "mark": 8,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "Write a class template having an array as a data member and two member functions which sort and return maximum value stored in the array.",
     "mark": 8,
     "paper_type": "endsem",
     "section": "C"
@@ -764,20 +540,6 @@
   },
   {
     "subject": "COMP 116",
-    "question": "Why exception handling is necessary? Explain the mechanism of exception handling in C++?",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "What is exception handling in C++? Explain the purpose of try, catch, and throw with an example program that handles array bound out of size using exception handling.",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
     "question": "What is exception handling in C++? Explain the purpose of try, catch, and throw with an example program that handles array bound out of size using exception handling.",
     "mark": 4,
     "paper_type": "endsem",
@@ -792,28 +554,7 @@
   },
   {
     "subject": "COMP 116",
-    "question": "Write a program which returns the greatest value of an array. Display an appropriate message implementing exception handling to check whether array size is out of bound or contains any negative values. The array must contain only positive numbers.",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
     "question": "Write in brief about the use of static data members and static member functions of a class with appropriate syntax.",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "Write in brief about the use of static data members and static member functions of a class with appropriate syntax.",
-    "mark": 4,
-    "paper_type": "endsem",
-    "section": "B"
-  },
-  {
-    "subject": "COMP 116",
-    "question": "Why can a static member function only access static data members? Write a C++ program to demonstrate a class with a static data member and a static member function that displays the total count of objects created.",
     "mark": 4,
     "paper_type": "endsem",
     "section": "B"

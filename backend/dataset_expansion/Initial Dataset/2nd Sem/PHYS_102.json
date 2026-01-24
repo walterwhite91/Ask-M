@@ -211,13 +211,6 @@
   },
   {
     "subject": "PHYS 102",
-    "question": "What is superconductivity? Define and explain the Meissner effect in superconductors. Also, describe the effect of magnetic field on superconductors.",
-    "mark": 5,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "PHYS 102",
     "question": "Find the magnetic vector potential of a finite segment of a straight wire carrying a current $I$. Also calculate the magnetic field associated with this potential.",
     "mark": 5,
     "paper_type": "endsem",
@@ -457,13 +450,6 @@
   {
     "subject": "PHYS 102",
     "question": "Define magnetic dipole moment and magnetization. Derive the expressions for torque and energy of a magnetic dipole in term of its dipole moment and magnetic field in which it is placed.",
-    "mark": 5,
-    "paper_type": "endsem",
-    "section": "C"
-  },
-  {
-    "subject": "PHYS 102",
-    "question": "Define self-inductance. Show that the magnetic energy stored in a unit volume of space having magnetic field $B$ is $\\frac{B^2}{2\\mu_0}$.",
     "mark": 5,
     "paper_type": "endsem",
     "section": "C"

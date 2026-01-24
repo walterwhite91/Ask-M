@@ -137,7 +137,8 @@
     "question": "Convert coordinates between Cartesian, cylindrical, and spherical systems.\n(a) Cartesian (0, 1, 0) to spherical and cylindrical\n(b) Polar (2, $\\frac{2 \\pi}{3}, 1$ ) to spherical and cylindrical",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"    },
+    "section": "B"
+  },
   {
     "subject": "MATH 104",
     "question": "Draw the graph of the polar curve $r^2 = \\sin 2\\theta$.",
