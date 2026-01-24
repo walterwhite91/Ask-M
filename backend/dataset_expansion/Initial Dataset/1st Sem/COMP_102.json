@@ -148,13 +148,6 @@
   },
   {
     "subject": "COMP 102",
-    "question": "Illustrate the purpose of operator precedence and associativity. What is the effect of the presence of parentheses in expressions?",
-    "mark": 4,
-    "paper_type": "internal",
-    "section": "C"
-  },
-  {
-    "subject": "COMP 102",
     "question": "Write a C program to calculate the product of all even numbers that are not divisible by 5 between 1 and n. (Assume n > 1.)",
     "mark": 3,
     "paper_type": "internal",
