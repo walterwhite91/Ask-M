@@ -1,0 +1,156 @@
+[
+  {
+    "subject": "EEEG 202",
+    "question": "a. Design an asynchronous counter which counts from 0 to 10 and then from 12 to 15 (The counter is to skip the output 11).\nb. Using 10's complement, perform the following subtraction:\n$(72532 - 3250)$\nc. Express the following Boolean function, $\\mathrm{F} = \\mathrm{xy} + \\overline{\\mathrm{xz}}$ as product of maxterms.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. Simplify the following Boolean expression using K-Map and implement the resulting expression using only NOR gates:\n$F(A,B,C,D)=A(C(BD+BD)+BC)+D(B(AC+AC)+AB)+ACD+ABD$\nb. Write truth table and design logic circuit of even parity checker for three-bit generated message.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. Write the characteristic equation of JK flip-flop and convert the JK flip-flop to the D flip-flop with the help of conversion table.\nb. Design a logic circuit for mod-6 synchronous down counter and explain the working mechanism with the help of timing diagram.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. Explain the working of 3-bit universal shift register with the help of circuit diagram.\nb. Design a combinational logic circuit for a BCD adder.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "A combinational circuit has four inputs (A, B, C, D) and one output Z. The output is high when both first and second inputs (AB) are high or both third and fourth inputs (CD) are high. Draw a truth table and design a logic circuit using 8:1 multiplexer circuit.",
+    "mark": 4,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. What do you mean by self-complementing codes? Explain with suitable examples.\nb. Perform the following operations using 2's complement. Explain whether there is overflow in each case.\ni. Subtract $(-50)_{10}$ from $(+100)_{10}$\nii. Add $(-85)_{10}$ to $(-97)_{10}$\nc. Define timing diagram for combinational logic gates? Explain three input NOR gate with timing diagram.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. Find $(r-1)$'s complement of $(1001.001)_2$ and $(27.95)_{10}$.\nb. Construct an $8 \\times 1$ multiplexer using $2 \\times 1$ multiplexer.\nc. Design a combinational logic circuit with 4 inputs and 4 outputs that converts a 4 bit gray code into equivalent excess-3 code.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. Design a BCD adder.\nb. Implement following functions using decoder.\n$F1 = (A+B'+C) (B+C+D')$\n$F2 = (A+B+C') (A+D)$\nc. Explain the significance of priority encoder.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. Differentiate between characteristic table and excitation table? Obtain the characteristic table and characteristic equation for negative edge triggered $S'R'$ flip flop.\nb. Design a 4 bit synchronous up counter which displays even decimal number in binary format.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. Compare counters and registers. Design a mod-12 asynchronous down counter.\nb. Explain how a universal register can be used as different types of registers.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. Design a sequential logic circuit that has 2 D flip flops and 2 inputs A and B. If A = 0, the circuit remains in the same state regardless the value of B. When A = 1 and B = 1, the circuit goes through the state transitions from 00 to 01 to 10 to 11 back to 00 and repeats. When A = 1 and B = 0, the circuit goes through the state transitions from 00 to 11 to 10 to 01 back to 00 and repeats.\nb. Write short notes on the following.\ni. Weighted binary code\nii. Applications of shift register\niii. Programmable logic array",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. What is the use of error detection codes during transmission? Explain with suitable examples.\nb. Represent the decimal number 8620 (i) in BCD, (ii) in excess-3 code, (iii) in 2421 code\nc. What is the difference between canonical form and standard form? Convert the following to the other canonical form\n$F = w'xz + w'yz + x'yz' + wxy'z$\n$d = wyz$",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. What are the constraints to be considered during a practical design method?\nb. Design a combinational circuit with four input lines that represent a decimal digit in BCD and four output line that generate the 9's complement of the input digit.\nc. Explain encoder? Design a circuit that compares two 4-bit numbers, A and B, to check if they are equal. The circuit has one output x, so that x = 1 if A = B and x = 0 if $A \\neq B$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. How can decoder be used as a demultiplexer? Explain with necessary tables/figures\nb. Implement a full-adder circuit with multiplexers.\nc. Consider a $J / K'$ flip flop and obtain the flip-flop characteristics table and its characteristics equation.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. A sequential circuit has two flip-flops (A and B), two inputs (x and y), and an output (y). The flip flop input functions and the circuit output functions are as follows:\n$JA = x B + y'B'$\n$KA = x y'B'$\n$JB = x A'$\n$KB = x y' + A$\n$z = x y A + x'y'B$\nObtain the logic diagram, state table, state diagram, and state equations.\nb. Explain types of registers? Design a 4 bit asynchronous binary up down counter.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. What is the difference between serial and parallel transfer? What type of register is used in each case?\nb. Design a synchronous BCD counter with JK flip flops.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. Define latch and flip-flop. Convert T flip flop to SR flip flop\nb. Write short notes on:\ni) Fan Out\nii) Digital Computer\niii) Counters",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "State De-Morgan’s theorem. Apply De-Morgan’s theorem to each of the following expressions.\na. $(A + B)(C + D)(E + F)(G + H)$\nb. $P(Q + R)$",
+    "mark": 2.5,
+    "paper_type": "internal",
+    "section": "B"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "Define the duality principle with example. Reduce the given Boolean functions.\n$\\overline{B}CD + (\\overline{B} + C + D) + \\overline{B}C\\overline{D}$",
+    "mark": 2.5,
+    "paper_type": "internal",
+    "section": "B"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "Write the three different methods to find the 2's complement of a given number. Subtract the following decimals numbers by 9's and 10's complement method respectively.\na. $(578.15)_{10} - (288.6)_{10}$\nb. $(3452.67)_{10} - (42358.74)_{10}$",
+    "mark": 2.5,
+    "paper_type": "internal",
+    "section": "B"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "Prove that $(AB + AC)(BC + BC)(ABC) = 0$. Convert the Gray code to the Binary code of the following numbers.\na. $(10101010101)_2$\nb. $(10010101111)_2$",
+    "mark": 2.5,
+    "paper_type": "internal",
+    "section": "B"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "Convert the following numbers.\na. $(578.897)_{10}$ to hexadecimal number.\nb. $(10100111100)_2$ to decimal number.\nc. $(587.269)_{16}$ to octal number.\nd. $(256.556)_{10}$ to binary number.\ne. $(367.2256)_8$ to decimal number.",
+    "mark": 2.5,
+    "paper_type": "internal",
+    "section": "B"
+  }
+]
