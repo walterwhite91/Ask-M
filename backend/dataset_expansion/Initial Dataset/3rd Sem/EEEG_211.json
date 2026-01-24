@@ -84,77 +84,77 @@
     "section": "B"
   },
   {
-    "subject": "FEBG 211",
+    "subject": "EEEG 211",
     "question": "Draw and explain the volt ampere characteristics of an ideal and practical semiconductor diode.",
     "mark": 8,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "FEBG 211",
+    "subject": "EEEG 211",
     "question": "Construct the clanger circuit and explain its working principle.",
     "mark": 8,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "FEBG 211",
+    "subject": "EEEG 211",
     "question": "Determine the values of $V_{cc}$ and $V_{S}$ for the network of Figure 1.\n\nFigure 1",
     "mark": 8,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "FEBG 211",
+    "subject": "EEEG 211",
     "question": "Sketch the voltage divider single stage bypass amplifier circuit and determine:\ni. $r_{e}$\nii. Input impedance $(Z_{i})$\niii. Output impedance $(Z_{o})$\niv. Voltage Gain $(A_{v})$",
     "mark": 8,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "FEBG 211",
+    "subject": "EEEG 211",
     "question": "Sketch the transfer and drain characteristics of an N-channel depletion-type MOSFET with $I_{DSS} = 10$ mA and $V_{P} = -4V$. Explain the construction and working principle of.",
     "mark": 8,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "FEBG 211",
+    "subject": "EEEG 211",
     "question": "Design a voltage-divider biased network using a BJT having a gain of -15 V/V. Hint: Use $V_{CC} = 20V$, $I_E = 2$ mA and $V_{CE} = \\frac{1}{2} V_{CC}$.",
     "mark": 8,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "FEBG 211",
+    "subject": "EEEG 211",
     "question": "What do you mean by capacitor coupling circuit? Implement the capacitor coupling method to design a single stage amplifier circuit.",
     "mark": 8,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "FEBG 211",
+    "subject": "EEEG 211",
     "question": "Draw and explain the circuit diagram of class-B NPN push-pull power amplifier using transformer-coupled input. Showing voltage waveforms in the circuit. What is cross over distortion in class-B amplifier?",
     "mark": 8,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "FEBG 211",
+    "subject": "EEEG 211",
     "question": "Derive the expression for efficiency of transformer-coupled class A amplifier. For a class B amplifier using a supply of $V_{CC} = 30V$ and driving a load of $8\\Omega$, determine the maximum input power, output power and efficiency.",
     "mark": 8,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "FEBG 211",
+    "subject": "EEEG 211",
     "question": "Design an operational amplifier based circuit to obtained $V_{O} = 5(V_{1} + V_{2} + V_{3})$, where, $V_{O}$ is the output, $V_{1}$, $V_{2}$ and $V_{3}$ are three inputs.",
     "mark": 8,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "FEBG 211",
+    "subject": "EEEG 211",
     "question": "Derive the mathematical expression to calculate the gain of inverting and non- inverting operational amplifier.",
     "mark": 8,
     "paper_type": "endsem",
@@ -245,63 +245,63 @@
     "section": "B"
   },
   {
-    "subject": "EEECG 211",
+    "subject": "EEEG 211",
     "question": "Find the branch current and the potential differences across the diode and the resistor in the circuit of Figure 1.\n\nFigure: 1",
     "mark": 11,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "EEECG 211",
+    "subject": "EEEG 211",
     "question": "With explanation, sketch the output for the circuit in Figure 2 when the input is a sine wave with peak to peak variation of 1V. Assume ideal diode.\n\nFigure: 2",
     "mark": 11,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "EEECG 211",
+    "subject": "EEEG 211",
     "question": "With explanation, draw emitter current (ie) versus base to emitter potential difference (vBE) and collector current (ic) versus collector to emitter potential difference (vCE) for a NPN type Bipolar Junction Transistor operating in the active region.",
     "mark": 11,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "EEECG 211",
+    "subject": "EEEG 211",
     "question": "Draw the small signal equivalent circuit of the MOS structure shown in Figure 5, and find the output resistance. Assume both the transistors are operating in the active region. Assume $R_{B}$ and $R_{D}$ of Q1 and Q2 as $R_{B1}, R_{B2}, R_{B3},$ and $R_{D2}$ respectively.\n\nFigure: 5",
     "mark": 11,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "EEECG 211",
+    "subject": "EEEG 211",
     "question": "What is frequency response of an amplifier? Explain with suitable diagram.",
     "mark": 11,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "EEECG 211",
+    "subject": "EEEG 211",
     "question": "Draw typical circuit of class A and class B amplifiers. Show how the linearity performance of an amplifier varies with biasing.",
     "mark": 11,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "EEECG 211",
+    "subject": "EEEG 211",
     "question": "Derive an expression for efficiency of a class B amplifier. Also find maximum efficiency that can be achieved by class B amplifiers?",
     "mark": 11,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "EEECG 211",
+    "subject": "EEEG 211",
     "question": "Draw a circuit of a differential amplifier using MOSFET and explain its working.",
     "mark": 11,
     "paper_type": "endsem",
     "section": "B"
   },
   {
-    "subject": "EEECG 211",
+    "subject": "EEEG 211",
     "question": "For the operational amplifier circuit in Figure 6, find the current through $R_{1}$, current through $R_{2}$, and the output voltage (vo) in terms of input voltage (vi).\n\nFigure: 6",
     "mark": 11,
     "paper_type": "endsem",
