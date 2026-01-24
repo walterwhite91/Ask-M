@@ -4,447 +4,575 @@
     "question": "The following are measurements of electrical conductivity (in micro-Siemens per centimeter) for 23 water samples\n2009  528  2030  1350  1018  384  1499  1265  375  424  789  810  522  513  488  200  215\n486  257  557  260  461  500\na. Find the mean\nb. Find the standard deviation\nc. Find the median\nd. Find the first quartile\ne. Find the third quartile\nf. Construct the box plot\ng. What features does it reveal?\nh. Find the Coefficient of Variation",
     "mark": 12,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Identify the type of data. Choose from nominal, ordinal, interval, and ratio.\na) Anxiety rate on a scale of 1 to 5, where 1 equals not anxious, 3 equals moderately anxious, 5 equals highly anxious………\nb) Gender ……..\nc) Weight of an individual……\nd) Number of adults (above 18 years) living in a family……\ne) Temperature in °C………………..\nf) pH of any water-soluble substance is ………………",
     "mark": 3,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Forty-five specimens of a certain type of powder were analyzed for sulfur trioxide content.\nThe following are the results, in percent. The list has been sorted into numerical order:\n14.1, 14.4, 14.7, 14.8, 15.3, 15.6, 16.1, 16.6, 17.3, 14.2, 14.4, 15.7, 14.9, 15.3, 15.7, 16.2, 17.2, 17.3, 14.3, 14.4, 14.8, 15.4, 15.7, 16.4, 17.2, 17.8, 14.3, 14.4, 14.8, 15.0, 15.4, 15.9, 16.4, 17.2, 21.9, 14.3, 14.6, 14.8, 15.2, 15.5, 15.9, 16.5, 17.2, 22.4\na. Construct a stem – and – leaf plot for these data.\nb. Construct a box plot for these data.\nc. Construct a frequency table and a relative frequency histogram",
     "mark": 9,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Mileage of 32 cars of 2016 model in miles per gallon are presented in following table\n21.0  21.0  22.8  21.4  18.7  18.1  14.3  24.4  22.8  19.2  17.8  16.4  17.3  15.2  10.4  10.4  14.7  32.4  30.4  33.9  21.5  15.5  15.2  13.3  19.2  27.3  26.0  30.4  15.8  19.7  15.0  21.4\na. Create a stem-and-leaf plot of given data.\nb. Use stem-and-leaf plot in part (a) to create ordered stem-and-leaf plot and rewrite given values in ascending order.\nc. Using the ordered stem-and-leaf plot created in part (b), determine median and quartiles.\nd. Calculate quartile deviation and coefficient of quartile deviation.\ne. Draw a boxplot of given data and interpret it.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "A floor cleaning company has been using Wax 1 to wax floors for a long time. A new floor wax, Wax 2, has recently come on the market with the claim that it is longer lasting than Wax 1. The company wants to investigate this claim. The company waxed a sample of 9 floors with Wax 1 and 8 floors with Wax 2. The number of months the wax lasted are presented below-\nWax 1: 2.73, 2.36, 2.62, 2.65, 2.08, 2.23, 2.94, 2.61, 2.94\nWax 2: 2.93, 2.05, 2.83, 2.72, 2.41, 2.82, 2.12, 3.27\nAssuming that both the samples are drawn from normal populations having nearly equal variances, test if Wax 2 lasts longer, on average, than Wax 1 at $5\\%$ level of significance. Also obtain $95\\%$ confidence interval for difference in actual average lasting times of the two types of products.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "In the class of Dr. Sharma, students take two major tests, one early in the semester and one later in the semester. To hear her tell it, she runs a very hard class, one that most students find very challenging; but she argues that by setting hard assessments, students are encouraged to work harder. Her theory is that the first test is a bit of a \"wake up call\" for students: when they realise how hard her class really is, they'll work harder for the second test and get a better mark. Marks obtained by 8 students in the two tests are tabulated below\nStudent ID: 1  2  3  4  5  6  7  8\nTest 1: 41.7  36.5  56.9  30.6  47.3  61.2  58.5  63.1\nTest 2: 80.3  69.4  83.8  81.2  61.4  77.6  72.0  66.0\nIs she right? Use paired t- test, at $5\\%$ level of significance. Also obtain $95\\%$ confidence interval for actual difference in marks in the two tests.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "The speed of cars, in miles per hour and the distances covered to stop, in feet are given in table below.\nSpeed: 8  10  12  14  16\nDistance: 20  26  28  32  36\na. Draw a scatterplot to show that there is nearly linear relationship between speed of cars and stopping distance.\nb. Develop a linear regression model describing relationship between speed of cars and stopping distance.\nc. Use the model developed in part (b) to estimate stopping time of a car when it is moving with speed of 15 miles per hour.\nd. Find Pearson's correlation coefficient between speed and stopping distance.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Three factories produce light bulbs to supply a market. Factory A produces $20\\%$, $50\\%$ of the tools are produced in factories B and $30\\%$ in factory C. $2\\%$ of the bulbs produced in factory A, $1\\%$ of the bulbs produced in factory B and $3\\%$ of the bulbs produced in factory C are defective. A bulb is selected at random in the market, find probability of this bulb to be defective. What is the probability that this defective bulb was produced by factory B?",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "The probability density function of a continuous random variable X is given by\n$f(x) = \\frac{1}{2}; -1\\leq x\\leq 1$\nConsider a function of X given by $g(X) = Y = X^{2}$ . Find (i) cumulative distribution function of Y, i.e., $F(y)$ (ii) probability density function of Y, i.e., $f(y)$ . Also state the domain of both the results.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Each of five questions on a multiple-choice examination has four choices, only one of which is correct. A student is attempting to guess the answers. The random variable X is the number of questions answered correctly. What is the probability that the student will get a) exactly three correct answers? b) at the most three correct answers? c) at least one correct answer.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "In a call center, the number of phone calls received each day by each of the 12 receptionists is normally distributed with 63 calls on average on each day. If probability of daily phone calls numbering between 60 and 66 is found to be 0.6827, find the standard deviation and then find the probability that on a particular day the number of phone calls received by the receptionists is more than 70.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "A coffee shop claims that their large cup contains 16 ounces of coffee. A skeptical customer takes a random sample of 10 large cups of coffee and measures their contents in ounces with results-\n20.0, 17.9, 20.6, 15.3, 16.8, 16.6, 18.2, 14.2, 19.2, 15.8\nObtain 95% confidence interval for true average content of coffee and carry t-test to determine if the actual mean volume differs from the claimed 16 ounces.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Data on 30 days for number of late flights out of 240 takeoffs daily are presented below- 26 19 26 22 24 19 19 20 18 18 17 9 13 10 12 14 14 13 9 10 12 15 14 15 16 18 17 16 18 17 Construct p-chart for proportions of late flights and interpret the chart.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "The times, in seconds, required for packing manufactured products by two machines, namely, Machine- 1 and Machine- 2 for 10 units each are recorded as follows-\nMachine-1: 42.1  41  41.3  41.8  42.4  42.8  43.2  42.3  41.8  42.7\nMachine-2: 42.7  43.6  43.8  43.3  42.5  43.5  43.1  41.7  44  44.1\nIf standard deviations of the packing times are calculated to be 0.683 for Machine- 1 and 0.750 for Machine- 2, carry F- test to observe whether packing time of Machine- 2 is more varied at $5\\%$ level of significance.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Following information are obtained from the study of 120 observations, mean $= 47.5$ standard deviation $= 12.2$ , median $= 52.1$ . Calculate coefficient of variation of observations.",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Suppose through a medical data we know that flu causes fever in $80\\%$ of cases and approximately every 1 in 10,000 have flu at a given time and approximately every 1 out of 50 people are suffering from fever. Given that a patient has fever, find the probability that she has flu?",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Given $X \\sim \\text{Poisson}(2.4)$ , find $P(2X \\geq 2)$ .",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "If $E(X_1) = 2.5$ and $E(X_2) = 7$ then find $E(2X_1 + X_2 - 3)$",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Write short note on a. Control chart of attributes  b. Parameters",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "The following data represent the length of life, in seconds, of 50 fruit flies subject to a new spray in a controlled laboratory experiment:\n17  20  10  9  23  13  12  19  18  24  12  14  6  9  13  6  7  10  13  7  16  18  8  13  3  3  29  7  10  11  13  7  18  7  10  4  27  19  6  8  10  5  14  15  10  9  6  7  15\na. Create a branched stem-and-leaf plot with digits 0, 1, 2, 3, 4 in leaf indicated by symbol '+' and digits 5, 6, 7, 8, 9 in leaf indicated by symbol '*'.\nb. Use stem-and-leaf plot in part (a) to create ordered stem-and-leaf plot and rewrite given values in ascending order.\nc. Using the ordered stem-and-leaf plot created in part (b) determine median and quartiles.\nd. Calculate quartile deviation and coefficient of quartile deviation.\ne. Draw a boxplot of given data and interpret it.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "The scores achieved by 10 males and 8 females in an IQ test are given below:\nScore of Males: 95 78 68 95 98 79 98 78 89 89\nScore of Females: 100 100 95 90 95 98 92 97\nAssuming that the actual scores of male and female candidates are both normally distributed with unknown means and variances but variances are equal, is there any evidence to consider that the actual mean score of females is significantly greater than that of males at 0.05 level of significance. Also construct 95% confidence interval for difference in means of scores of males and females.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "In a survey, the question, \"Do you smoke?\" was asked to 100 people. Results are shown in the following table:\nYes (A)  No (A)  Total\nMale (B): 19  41  60\nFemale (B): 12  28  40\nTotal: 31  69  100\nAn individual is chosen from them at random. Find: a) What is the probability that the selected individual smokes? b) What is the probability that the selected individual is a male and smokes? c) What is the probability that the selected individual is a male? d) What is the probability of selected individual being a smoker if he was found to be a male?",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "In certain food experiment to test the effectiveness of a baby food, 8 children were observed. Their weights, in pounds, before taking the food and after 2 weeks of experiment are as follows-\nChildren ID: 1 2 3 4 5 6 7 8\nBefore: 49 53 51 52 47 50 52 53\nAfter: 52 55 52 53 50 54 54 53\nCarry paired t-test to examine whether the baby food has been effective in increasing weight at 0.05 level of significance.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "A researcher is interested in studying average weight of obese children in a province. Previous literature gives an estimated standard deviation of weight of obese children in the province to be 1.24. What is the sample size required for him/her to observe if 95% confidence level is required and that maximum tolerable error is 1.5?",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Write down any two characteristics of Poisson distribution. The number of customers arriving at a grocery store is a Poisson random variable. On average 10 customers arrive per hour. Let $X$ be the number of customers arriving from 10 am to 12 noon. Find $P(12 < X \\leq 15)$ .",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "The average number of acres burned by forest and range fires in a county is 4,300 acres per year, with a standard deviation of 750 acres. The distribution of the number of acres burned is normal. What is the probability that between 2,500 and 4,200 acres will be burned in any given year? Find 'c' such that probability is 0.38 that at the most 'c' acres will be burned in a year.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "A manufacturer of tyres claim that average life of its product is more than 5000 km. A sample of 250 tyres is observed and it is found that the average life of the tyres is 5000 km with a standard deviation of 3500 km. Test the claim of the manufacturer at 5% level of significance. Also establish the 99% confidence interval within which the mean life of tyres of the company can be expected to lie.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "A random sample of 10 workers is taken from a factory. The wages (in hundreds) per months of these workers are given below: 48, 50, 62, 75, 80, 60, 70, 56, 52, 77. Obtain 95% confidence interval for the variance of wages of all the workers of the factory.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "In a sample of 15 patients at Clinic 1, the standard deviation for the wait time to see a doctor was 45 minutes. In a sample of 12 patients at Clinic 2, the standard deviation for the wait time to see a doctor was 27 minutes. Assume the population of wait times at the two clinics are independent and normally distributed. Is the variability of waiting time in clinic 1 is significantly greater than that in clinic 2? Test at 5% level of significance.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Find the coefficient of correlation, if the coefficient of determination is 0.81.",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Write down the two-regression equation of Y on X and X on Y.",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "The probability that it is Friday and that a student is absent is 0.03. There are 6 school days in a week. What is the probability that a student is absent given that today is Friday?",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "A bag contains 5 white balls, and 4 black balls. Two balls are drawn from the bag randomly, one by one, without replacement. Find the probability that the first ball is black, and second is white.",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Write short notes on (i) type-I error (ii) continuous random variable.",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "The time required to calculate inverse of 100 random matrices of size $70 \\times 60$ is measured using JavaScript Date object and following frequency distribution of time in micro-second is obtained:\nTimes (μS): 310 312 313 314 315 316 318 323\nNo. of Occurrences: 1 5 20 36 30 6 1 1\na. Obtain mean and standard deviation of times observed.\nb. Draw less-than-ogive and more-than-ogive of times on the same plot and locate median.\nc. Using the results obtained in parts (a) and (b) calculate Pearson's coefficient of skewness.\nd. Calculate the coefficient of variation of times.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "11 males and 9 females who appeared in KUCAT entrance exam are randomly selected and their score on the test are given below:\nScore of Males :462,289,612,1025,984,687,812,536,579,752,615\nScore of Females :498,615,945,635,846,498,863,518,648\nAssuming that the actual scores of male and females in the entrance test are normally distributed with more or less equal variance, conduct a test of hypothesis procedure to examine whether the average scores of male participants and female participants differ significantly. Also construct $95\\%$ confidence interval for difference in mean scores of males and females.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Ten identical twins were enrolled in a study to measure the effect of home environment on certain social attitudes. An attitudinal survey of the selected twins was conducted before sending them to live with families of minority environment for a period of 1 year. At the end of the year, another attitudinal survey was administered. The table below gives scores of the children in attitudinal tests in home environment and in minority environment. Use paired t- test to observe whether living in the minority environment leads to higher scores on the attitudinal survey.\nID: 1  2  3  4  5  6  7  8  9  10\nHome: 65  67  75  77  69  65  73  78  70  72\nMinority: 83  85  72  76  78  80  72  81  70  78\nAlso construct $95\\%$ confidence interval for actual difference in scores of twins in home and in minority environment.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Ten files that were transmitted from a particular gateway to another gateway are observed for their size in kilobytes and time required for transmission in milli-second. Raw data are given below:\nFile Size (Kbytes): 126  155  52  214  147  128  101  219  56  142\nTime (ms): 1.96  2.49  0.79  3.28  2.22  1.94  1.43  3.31  1.04  2.43\na. Draw a scatterplot of time versus file size to observe whether there is linear relation between the two variables.\nb. Develop linear regression equation to establish relation between file size and time of transmission.\nc. Based on information obtained in part (b) estimate the transmission time of a file of size 315 Kbytes.\nd. Calculate correlation coefficient between file size and transmission time.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "You have two dice. One is fair, and the other one is weighted to land on 6, $50\\%$ of the time. There's an equal probability for the other five faces on the biased die. Without knowing which one you're choosing, you pick one of the dice, roll it, and get a 6. What is the probability that you rolled the biased die?",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "The probability density function of a random variable $X$ is given by\n$f(x) = \\frac{k}{x^4};x\\geq 1$\nFind (i) the value of $k$ , (ii) the cumulative distribution function of $X$ .",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "A computer virus is trying to corrupt two files. The probability that the virus will corrupt the two files independent of one another is estimated to be 0.24. Let $X$ be random variable denoting number of files corrupted by the virus. Here $X$ can take values 0 (corrupt none), 1 (corrupt any one) and 2 (corrupt both). Find $P(X = 0)$ , $P(X = 1)$ and $P(X = 2)$ .",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "A radar unit is used to measure speed of cars on a motorway. The speeds are normally distributed with a mean of $90 \\mathrm{~km / hr}$ . It is calculated that $15.87\\%$ of cars travel at more than $100 \\mathrm{~km / hr}$ speed. Find the standard deviation of speed of cars on the motorway.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "A courier service station claims that the mean delivery time is less than 120 minutes with a standard deviation of 30 minutes. A random sample of 49 parcels is studied and it is found that they are delivered with a mean of 100 minutes. At 5% level of significance, is there enough evidence to support the claim? Also obtain 95% confidence interval for actual average delivery time.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "The thickness of silicon chips produced by a machine are observed. 12 samples each of size 3 are found to have following values of means and ranges of thickness of sample units:\nSample: 1 2 3 4 5 6 7 8 9 10 11 12\nMeans $(\\bar{X})$: 0.258, 0.249, 0.259, 0.268, 0.256, 0.268, 0.260, 0.257, 0.257, 0.245, 2.248, 0.239\nRange $(R)$: 0.038, 0.030, 0.009, 0.024, 0.039, 0.003, 0.026, 0.046, 0.035, 0.017, 0.049, 0.005\nConstruct (a) $\\bar{X}$ - chart based on range (b) R- chart. Analyze the charts.\n[Hints: $A_{2} = 1.023, D_{3} = 0, D_{4} = 2.574]$",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "The number of blocked intrusions attempts on each day after changing firewall setting are recorded for 16 days as- 53, 21, 32, 49, 45, 38, 44, 33, 32, 43, 53, 46, 36, 48, 39, 35, 37, 36, 39, 45. Construct stem-and-leaf plot of given data.",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "There are 6 computer chips two of which are defective. If two chips are selected one-by-one without replacing, find probability of getting both defective chips.",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Measuring specimens of nylon yarn taken from two spinning machines, it was found that 8 specimens from the first machine had a mean denier of 9.67 with a standard deviation of 1.81, while 10 specimens from the second machine had a mean denier of 7.43 with a standard deviation of 1.48. Obtain the value of the test statistic that is used to test the null hypothesis that the two populations have same variances. (It is not required to carry entire test.)",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Calculate sample size required to estimate mean of a normally distributed population known to have standard variance of 1.44 at 95% confidence level if tolerable error in estimation is not to exceed 0.47.",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Write short notes on (i) random causes of variation (ii) assignable causes of variation in production process",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Direct evidence of Newton's universal law of gravitation was provided from a renowned experiment by Henry Cavendish. In the experiment, masses of objects were determined by weighing, and the measured force of attraction was used to calculate the density of the earth. The values of the earth's density, in time order by row, are\n5.36 5.29 5.58 5.65 5.57 5.53 5.62 5.29\n5.44 5.34 5.79 5.10 5.27 5.39 5.42 5.47\n5.63 5.34 5.46 5.30 5.75 5.68 5.85 5.32\na. Construct stem-and-leaf plot of above data.\nb. Use the result of part (a) to construct ordered stem-and-leaf plot and list the data in ascending order.\nc. Determine median and quartiles using result in part (b).\nd. Construct boxplot and interpret the nature of given data.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "10 cars and 10 pickup trucks were selected randomly to observe the number of years that they were kept by original owner before being sold and following results were obtained.\nCars: 5 1 4 7 1 9 5 3 5 4\nTrucks: 6 5 5 10 7 7 1 1 7 6\nAssuming that the number of years that the original owners of both cars and trucks before being sold are normally distributed with more or less same variance, conduct an investigation to test whether there is any difference in the mean time in years of cars and of trucks before they are sold by the owners at $5\\%$ level of significance. Also construct the $95\\%$ confidence interval for the difference in the means based on these data.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "10 cars were equipped with radial tires and driven over a test course. Then the same 10 cars (with the same drivers) were equipped with regular belted tires and driven over the same course. After each run, the cars' fuel economy (in km/l) was measured. The results are presented below-\nRadial tire: 4.2 4.7 6.6 7.0 6.8 4.5 5.7 6.0 7.4 4.9\nBelted tire: 4.1 4.9 6.2 6.9 6.8 4.4 5.7 5.8 6.9 4.7\nIs there evidence that radial tires produce better fuel economy? (Assume normality of data, and use paired t- test at $\\alpha = 0.05$ ). Also, find a $95\\%$ confidence interval for the mean difference in fuel economy between radial tires and belted tires.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "A company manufactures an electronic device to be used in a very wide temperature range. The company knows that increased temperature shortens the life time of the device, and a study is therefore performed in which the life time is determined as a function of temperature. The following data is found:\nTemperature in Celsius (x): 10 20 30 40 50 60 70 80 90\nLife time in hours (y): 420 365 285 220 176 117 69 34 5\na. Construct a scatter plot to show that it is appropriate to apply linear regression.\nb. Develop the linear regression model to establish relationship between temperature and life-time.\nc. Predict the life time for the temperature of $0^{\\circ}C$ .\nd. Find correlation coefficient between temperature and life-time and interpret it.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Three identical boxes contain red and white balls. The first box contains 3 red and 2 white balls, the second box has 4 red and 5 white balls, and the third box has 2 red and 4 white balls. A box is chosen very randomly and a ball is drawn from it. If the ball that is drawn out is red, what will be the probability that the second box is chosen?",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "X, the random variable denoting the number of breads that certain bakery is able to sell on a day had probability density function equation[[430, 497, 755, 547]]\nFind the constant A and the probability that the number of breads that will be sold tomorrow will be between 250 and 750.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "The number of customers arriving at a grocery store is a Poisson random variable. On average 10 customers arrive per hour. Let $X$ be the number of customers arriving from 10 am to 11:30 am. Find $P(12 < X \\leq 15)$ .",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "The time, $X$ , in minutes taken to install a satellite dish is assumed to be a normal random variable with mean 134 and standard deviation 16. (a) Determine $P(X < 150)$ . (b) Determine, to one decimal place, the time exceeded by 10% of installations.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "It is reported that the population standard deviation of scores on the quantitative portion of the Graduate Record Examination (GRE) General Test for students taking the exam between 1994 and 1997 was 139. A sample of 100 participants is observed and sample mean was observed to be 585. Carry the one-independent sample z-test for whether or not we will retain the null hypothesis that population mean of GRE-scores is more than 560 at a 0.05 level of significance. Also, construct 95% two-sided confidence interval for the population mean based on sample observations.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "The thickness of silicon chips produced by a machine are observed. 12 samples each of size 3 are found to have following values of means and ranges of thickness of sample units!\nSample: 1 2 3 4 5 6 7 8 9 10 11 12\nMeans $(\\bar{X})$: 0.258 0.249 0.259 0.268 0.256 0.268 0.260 0.257 0.257 0.245 2.248 0.239\nRange $(R)$: 0.038 0.030 0.009 0.024 0.039 0.003 0.026 0.046 0.035 0.017 0.049 0.005\nConstruct (a) $\\bar{X}$ based on range (b) R chart. Analyze the charts. [Hints: $A_{2} = 1.023$ , $D_{3} = 0$ , $D_{4} = 2.574$ ]",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "In tossing of an unbiased coin 6 times, find probability of getting at the least 5 heads.",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Two hundred patients who had either hip surgery or knee surgery were asked whether they were satisfied or dissatisfied regarding the result of their surgery. The following table summarizes their response-\nSurgery Satisfied Dissatisfied\nKnee 70 25\nHip 90 15\nIf one person from the 200 patients is selected at random, determine the probability that the person was satisfied GIVEN that the person had knee surgery.",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Mention the expressions for test statistics that are used to test hypothesis on standard deviation of (a) one population (b) two populations. Describe the meaning of each symbol used in the expressions and also state what distributions these statistics follow.",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "A researcher is interested in studying average weight of obese children in a province. Previous literature gives an estimated standard deviation of weight of obese children in the province to be 1.24. What is the sample size required for him/her to observe if 95% confidence level is required and that maximum tolerable error is 1.5?",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 208",
     "question": "Write short notes on:\na. assignable causes of variation\nb. p-chart",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 3,
+    "family": "math_phys"
   }
 ]

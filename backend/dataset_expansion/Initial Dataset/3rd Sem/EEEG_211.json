@@ -4,531 +4,683 @@
     "question": "Discuss the characteristics curve of rectifier diode. Also, derive the expression of efficiency calculation for center tap full wave rectifier circuit.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "What is a clipper circuit? Draw and explain the output waveform for the circuit provided in Fig. 1.\n\nFig. 1",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Derive the expressions of gains for,\ni. Non-inverting amplifier.\nii. Differential input amplifier.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "In the reference Fig. 2, determine the output voltage $(V_{0})$ for the given op-amp circuit.\n\nFig. 2",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "For Fig. 3, $I_{CQ} = \\frac{1}{2} I_{sat}$, $I_{sat} = 6mA$, $V_{c} = 18V$, $\\beta = 100$. Determine $R_{C}$, $R_{E}$, and $R_{B}$, & $V_{CEQ}$ for Fig. 3.\n\nFig.3",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "For a single stage amplifier shown in Fig 4, derive the expression for the following parameters and estimate the values:\na. Determine $r_{e}$\nb. Input impedance $(Z_{i})$\nc. Output impedance $(Z_{o})$\nd. Voltage Gain $(A_{V})$\n\nFig.4",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Derive the efficiency of Class A type power amplifier. How the efficiency of Class A amplifier can be increased? Discuss it with transformer coupled concept.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "For a class B amplifier providing a 20-V peak signal to a 16-ohm load (speaker) and a power supply of VCC = 30 V, determine the input power, output power, and circuit efficiency.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Explain the correlation and working point of n-channel E-MOSFET with its drain characteristics.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Determine the required values of drain current $(I_D)$ and $V_{DS}$ for a given circuit in Fig.5\n\nFig.5",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Using the information provided in Fig. 6, Determine $I_C, V_S, V_S$ and $R_1$.\n\nFig.6",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Discuss the design procedure of low frequency amplifier using BJT.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Draw and explain the volt ampere characteristics of an ideal and practical semiconductor diode.",
     "mark": 8,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Construct the clanger circuit and explain its working principle.",
     "mark": 8,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Determine the values of $V_{cc}$ and $V_{S}$ for the network of Figure 1.\n\nFigure 1",
     "mark": 8,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Sketch the voltage divider single stage bypass amplifier circuit and determine:\ni. $r_{e}$\nii. Input impedance $(Z_{i})$\niii. Output impedance $(Z_{o})$\niv. Voltage Gain $(A_{v})$",
     "mark": 8,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Sketch the transfer and drain characteristics of an N-channel depletion-type MOSFET with $I_{DSS} = 10$ mA and $V_{P} = -4V$. Explain the construction and working principle of.",
     "mark": 8,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Design a voltage-divider biased network using a BJT having a gain of -15 V/V. Hint: Use $V_{CC} = 20V$, $I_E = 2$ mA and $V_{CE} = \\frac{1}{2} V_{CC}$.",
     "mark": 8,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "What do you mean by capacitor coupling circuit? Implement the capacitor coupling method to design a single stage amplifier circuit.",
     "mark": 8,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Draw and explain the circuit diagram of class-B NPN push-pull power amplifier using transformer-coupled input. Showing voltage waveforms in the circuit. What is cross over distortion in class-B amplifier?",
     "mark": 8,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Derive the expression for efficiency of transformer-coupled class A amplifier. For a class B amplifier using a supply of $V_{CC} = 30V$ and driving a load of $8\\Omega$, determine the maximum input power, output power and efficiency.",
     "mark": 8,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Design an operational amplifier based circuit to obtained $V_{O} = 5(V_{1} + V_{2} + V_{3})$, where, $V_{O}$ is the output, $V_{1}$, $V_{2}$ and $V_{3}$ are three inputs.",
     "mark": 8,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Derive the mathematical expression to calculate the gain of inverting and non- inverting operational amplifier.",
     "mark": 8,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Discuss the operation of practical silicon diode with waveform.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Draw and explain the shunt clipper circuit.\n\nFig.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Determine the operation (quiescent) point $I_{CQ}$ & $V_{CEQ}$ for Figure.1.\n\nFigure 1",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Draw one single stage common emitter amplifier and derive the expression for the following parameters:\ni. Input impedance $(Z_{i})$\nii. Output impedance $(Z_{o})$\niii. Voltage Gain $(A_{V})$",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Draw and explain the circuit diagram of transformer coupled class-A NPN power amplifier. Discuss about the impedance transformation.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Derive the expression for efficiency of transformer-coupled class B amplifier. For a class B amplifier using a supply of $V_{CC} = 30V$ and driving a load of $8\\Omega$, determine the maximum input power, output power and efficiency.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Derive the inverting and non-inverting gain of operational amplifier. Also discuss its characteristics.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Design an operational amplifier-based circuit to obtained $V_{O} = -5(V_{I} + V_{2} + V_{3})$, where, $V_{O}$ is the output, $V_{I}$, $V_{2}$ and $V_{3}$ are three inputs.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Explain the construction and working principle of E-MOSFET with its drain characteristics.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Determine the required values of $R_D$ and $R_S$ for a given circuit in Figure.2 to maintain the drain current of 2.5 mA.\n\nFigure 2",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Determine the values $Q$ point for Figure 3, but if we need $I_{CQ} = 2 \\text{mA}$, then what should be the value of instead of $R_1 = 91 \\text{K}$, & $R_C = 3.6 \\text{K}$\n\nFigure 3",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "What is frequency response of an amplifier? Explain with suitable diagram.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Find the branch current and the potential differences across the diode and the resistor in the circuit of Figure 1.\n\nFigure: 1",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "With explanation, sketch the output for the circuit in Figure 2 when the input is a sine wave with peak to peak variation of 1V. Assume ideal diode.\n\nFigure: 2",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "With explanation, draw emitter current (ie) versus base to emitter potential difference (vBE) and collector current (ic) versus collector to emitter potential difference (vCE) for a NPN type Bipolar Junction Transistor operating in the active region.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Draw the small signal equivalent circuit of the MOS structure shown in Figure 5, and find the output resistance. Assume both the transistors are operating in the active region. Assume $R_{B}$ and $R_{D}$ of Q1 and Q2 as $R_{B1}, R_{B2}, R_{B3},$ and $R_{D2}$ respectively.\n\nFigure: 5",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "What is frequency response of an amplifier? Explain with suitable diagram.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Draw typical circuit of class A and class B amplifiers. Show how the linearity performance of an amplifier varies with biasing.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Derive an expression for efficiency of a class B amplifier. Also find maximum efficiency that can be achieved by class B amplifiers?",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Draw a circuit of a differential amplifier using MOSFET and explain its working.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "For the operational amplifier circuit in Figure 6, find the current through $R_{1}$, current through $R_{2}$, and the output voltage (vo) in terms of input voltage (vi).\n\nFigure: 6",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Find the branch current and the potential differences across the diode and the resistor in the circuit of Figure 1.\n\nFigure: 1",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "With explanation, sketch the output for the circuit in Figure 2 when the input is a sine wave with peak to peak variation of 1V. Assume ideal diode.\n\nFigure: 2",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "With explanation, draw emitter current (ie) versus base to emitter potential difference (vBE) and collector current (ic) versus collector to emitter potential difference (vCE) for a NPN type Bipolar Junction Transistor operating in the active region.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Find the collector current and the emitter potential in the circuit shown in Figure 3 Assume base emitter drop as 0.7 V and $\\beta = 100$.\n\nFigure: 3",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "The PMOS in the circuit of Figure 4 has absolute threshold voltage of 1V, $k = 0.5$ mA/V², $I_D = 0.5$ mA, and $V_D = 3V$. Find maximum drain potential that will maintain saturation region operation.\n\nFigure: 4",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "With necessary diagram, explain cut-off region, saturation region, and triode region of a MOSFET.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Draw and explain the volt ampere characteristics of an ideal and practical semiconductor diode.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Develop a circuit with explanation to obtain the transfer characteristics as shown in the figure 1. Output shall be equal to input in the linear region. Non-linear region starts from +6 units at right and -5 units at left. Output shall be less than input by the factor of 1/2 in the non-linear region.\n\nFigure: 1\n\nFigure: 2",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Find the small signal equivalent resistance of the emitter diode in a bipolar junction transistor.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Find the collector current and collector potential in the circuit shown in figure 2. Assume base emitter drop as 0.6 V.\n\nFigure: 2",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Draw and explain the voltage transfer characteristics of the circuit shown in the figure.\n\nFigure: 3\n\nFigure: 4",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Find the current through 1 kΩ resistor in the circuit shown in figure 4. Assume base emitter drop as 0.3 V.\n\nFigure: 4",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Draw the small signal equivalent circuit of the NPN bipolar junction transistor",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "What is frequency response of an amplifier? What is its significance? Explain with suitable example.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Design a NMOS field effect transistor based amplifier to get positive voltage gain of 5V/V and input resistance of 50 kΩ.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Design an operational amplifier based circuit to obtain $V_{o} = 3(V_{1} + V_{2} + V_{3})$, where, $V_{o}$ is the output, $V_{1}$, $V_{2}$ and $V_{3}$ are three inputs.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Design an operational amplifier based inverting amplifier to get the gain of +10V/V with derivation.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Derive an expression for efficiency of a class A and class B amplifier. What is the maximum efficiency of class A amplifiers?",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Draw and explain the current-voltage characteristics of a semiconductor diode. Find the resistance of the characteristics in the forward region and in the reverse region.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "With neat circuit diagram and necessary input and output voltage waveforms explain the operation of basic half wave rectifier.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Find collector current and collector potential for the circuit in Figure 2. Assume $V_{BE} = 0.7 \\mathrm{~V}$ and $\\beta = 90$.\n\nFigure: 2",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Draw and explain cut-off, active, and saturation region in the operation of bipolar junction transistor.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Compare bipolar junction transistor and field effect transistor in terms of construction and I-V characteristics.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "With circuit diagram design a field effect transistor based amplifier to get the voltage gain of $+10 \\mathrm{~V} / \\mathrm{V}$.",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Explain the relation between input and output voltages in the circuit of Figure 1, and find the expression for output voltage.\n\nFigure: 1",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "For the circuit shown in Figure 2, find,\ni. the current through the diode assuming forward diode drop as 0.7 V.\nii. large signal resistance of the diode.\niii. small signal resistance of the diode.\n\nFigure: 2",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Find $I_{E}$ and $V_{C}$ for the circuit in Figure 3. Assume $\\beta = 100$ and $V_{BE} = 0.7 \\mathrm{~V}$.\n\nFigure: 3",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "For the circuit in Figure 4, draw and explain the relation between input voltage and output voltage.\n\nFigure: 4",
     "mark": 11,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Discuss semiconductor material based on the energy band diagram. Explain the formation procedure of P-type and N-type materials.",
     "mark": 7,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "For the given circuit (Fig. 1), draw the load line and calculate the Q-point.\n\nFig. 1",
     "mark": 8,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Discuss about,\na. Clipper circuit.\nb. Clamper circuit.",
     "mark": 2.5,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   },
   {
     "subject": "EEEG 211",
     "question": "Draw the $r_e$-model for given figure (Fig 2) and calculate $r_e Z_i$, $Z_o$ and voltage gain ($A_v$).\n\nFig. 2",
     "mark": 7,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
   }
 ]

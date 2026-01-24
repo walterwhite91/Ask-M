@@ -4,307 +4,395 @@
     "question": "Define differential coefficient of $f(x)$ at $x = a$ . Prove that the differentiability of a function at a point implies continuity at that point. By differentiating $x^{2} - y^{2} = 1$ implicitly, show that $\\frac{dy}{dx} = \\frac{x}{y}$ . Then show that $\\frac{d^{2}y}{dx^{2}} = -\\frac{1}{y^{3}}$ .",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Define horizontal and vertical asymptotes of the graph of the function. Find all asymptotes of the curve $y = \\frac{2x + 3}{5x + 7}$ and then sketch the graph.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Define echelon and reduced echelon form a matrix. Find the general solution of the linear system whose augmented matrix is\n$[0 3 -6 6 4: - 5] 3 -7 8 -5 8: 9 3 -9 12 -9 6: 15$\nAlso, find the parametrically represented solution with any two specific solutions (if exists).",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Define vector subspace of a vector space V over the field F. Show that the subset\n$S = \\{(x,y,z)\\in R^{3}:x - 2y + 5z = 0\\}$ of $R^{3}$ is a subspace of $R^{3}$ . Find the basis vectors and dimension of S.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Show that $f(x) = \\frac{x^{2} + x - 2}{x^{2} - 1}$ has a continuous extension to $x = 1$ and find that extension.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Evaluate the following (ANY TWO):\ni. $\\int \\frac{1}{\\sqrt{e^{2x} - 6}} dx$\nii. $\\int e^{x} \\cos x dx$\niii. $\\int_{0}^{\\infty} \\frac{1}{1 + x^{2}} dx$",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "State Rolle's theorem. Verify mean value theorem for the function $f(x) = x^{2} + 2x - 1$ in the interval $[0,1]$ .",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Define $\\epsilon - \\delta$ definition of limit of function at $x = a$ . Find $\\delta > 0$ if $f(x) = \\frac{3}{2} x - 1$ , $a = 1$ , $\\epsilon = 0.01$ .",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Find the area of the region enclosed by the parabola $y = 2 - x^{2}$ and the line $y = -x$ .",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "The region bounded by the curve $y = x^{2} + 1$ and the line $y = - x + 3$ is revolved about the x- axis to generate a solid. Find the volume of the solid.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Test the convergent and divergent of the series $\\sum_{n = 1}^{\\infty} \\frac{(n + 3)!}{3! n! 3^n}$ .",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Let $A = \\begin{bmatrix} 1 & 6 \\\\ 5 & 2 \\end{bmatrix}$ , find the eigenvalues and eigenvectors of $A$ .",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "What are indeterminate forms? Evaluate: $\\lim_{x \\to \\infty} (x - \\sqrt{x^{2} + x})$ .",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Find an equation for the line tangent to the curve $x = 2 \\cos t$ , $y = 2 \\sin t$ at $t = \\frac{\\pi}{4}$ .",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "If $T: \\mathbb{R}^{2} \\to \\mathbb{R}^{2}$ is defined by $T(x, y) = (x - y, 2y)$ , then show that $T$ is linear transformation.",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Describe all solutions of the homogenous system: $10x_{1} - 3x_{2} - 2x_{3} = 0$ .",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "For what value of h is $\\overline{v_{3}}$ in $\\mathrm{Span}\\{\\overline{v_{1}}, \\overline{v_{2}}\\}$ if $\\overline{v_{1}} = \\begin{bmatrix} 1 \\\\ -3 \\\\ 2 \\end{bmatrix}$ , $\\overline{v_{2}} = \\begin{bmatrix} -3 \\\\ 9 \\\\ -6 \\end{bmatrix}$ and $\\overline{v_{3}} = \\begin{bmatrix} 5 \\\\ -7 \\\\ h \\end{bmatrix}$ ?",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "E"
+    "section": "E",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "a) Let $f(x) = \\sqrt{x}$ and $g(x) = x + 1$ . The domain of $(f\\circ g)(x)$ is\nb) The value of $\\lim_{\\theta \\to 4^{-}}\\frac{\\left[\\theta\\right]}{\\theta}$ is\nc) The graph of the function $f(x) = x^{3} - 12x$ has horizontal tangents at the points where $x =$\nd) If $f^{\\prime}$ changes from positive to negative at $c$ , then $f$ has at $c$ . [Choose appropriate answers: Local maxima; Local minima; No extreme values; Absolute minima]",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Find the value of $\\lim_{x\\to 0}\\left(\\frac{\\sin x}{x}\\right)^{\\frac{1}{x}}$ . Show that the function\n$f(x) = \\frac{x^{2} + 3x - 10}{x^{2} - 4}, x\\neq 2$ text has continuous extension to $x = 2$, find that",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "a) A spherical balloon is inflated with helium at the rate of $100\\pi ft^{3} / min$ . How fast is the balloon's surface area increasing at the instant radius is $5ft$ ?\nb) Show that the function $y = x^{1 / 3}$ has point of inflection but $f^{\\prime}$ and $f^{\\prime \\prime}$ both fail to exist at that point.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "State the second derivative test for the concavity a function over an interval. Determine the concavity of $y = 5 + \\sin x$ on $[0,2\\pi ]$ .",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Define critical point. Sketch the graph of the function $f(x) = x^{3} + 3x^{2} + 2$ .",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "a) The range of $f(x) = \\sqrt{x - 1}$ is\nb) The value of $\\lim_{\\theta \\to 3^{+}}\\frac{|\\theta|}{\\theta}$ is\nThe graph of the function $f(x) = x^{1 / 3}$ has vertical tangents at the point where $x =$\nIf $f$ \"changes from negative to positive or positive to negative at $c$ , then $c$ is called [Choose appropriate answers: Stationary point; Critical point; Point of inflection; Turning point]",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Find the value of $\\lim_{x \\to \\infty} (\\ln x)^{\\frac{1}{x}}$ . Show that the function\n$f(x) = \\frac{x^{2} - 16}{x_{1}^{2} - 3x - 4}$ , $x \\neq 4$ has continuous extension to 4, find that extension.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "A spherical balloon is inflated with helium at the rate of $200\\pi ft^{3} / min$ . How fast is the balloon's surface area increasing at the instant radius is $10ft$ ?\nb) Define point of inflection. Show that the function $y = x^{4}$ has no point of inflection.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "State necessary and sufficient condition for local extreme values. Find the local extreme values of $y = x^{1 / 3}\\left(x - 4\\right)$ . Also find the point of inflection, if any.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Sketch the graph of the function $f(x) = x^{4} - 4x^{3} + 10$ .",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "State Sandwich Theorem and use it to find the limit $\\lim_{x\\to 0}f(x)$ where $\\sqrt{2 - x^{2}}\\leq f(x)\\leq \\sqrt{2}\\cos x$ for all x.",
     "mark": 2,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "At which point the function $y = \\frac{x^{2} - 16}{x^{2} - 3x - 4}$ fail to be continuous?",
     "mark": 2,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Find the differential coefficient of the function $y = e^{\\cosh^{-1}\\left(\\frac{x}{a}\\right)}$",
     "mark": 2,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Evaluate: $\\lim_{x\\to \\frac{\\pi}{2}}(\\sin x)^{\\tan x}$",
     "mark": 2,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Find the linearization of the function $\\cos x$ at $x = 0$",
     "mark": 2,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Verify Mean Value Theorem for $f(x) = x^{2}$ in [1,2].",
     "mark": 2,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Sketch the general shape of the graph of f if $y^{\\prime} = 2 - x - x^{2}$",
     "mark": 2,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Find the slope and equation of tangent and normal to the curve of $x^{2} + xy - y^{2} = 0$ at (2, 3).",
     "mark": 3,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Find the Local and Global Extreme values of $f(x) = 4 - x^{2}$ at $-3 \\leq x \\leq 1$ .",
     "mark": 3,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Integrate $\\int x\\cdot \\sin^{3}x d x$",
     "mark": 2,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "State the first fundamental theorem of integral calculus and find $\\frac{dy}{dx}$ where $y = \\int_{0}^{x^{2}}\\cos \\sqrt{t} d t$",
     "mark": 2,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Use the algebra of rules of Finite sums and formula of sums to evaluate the sums $\\sum_{k = 1}^{5}k(3k + 5)$",
     "mark": 2,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "State the second fundamental theorem of integral calculus and use it to evaluate: $\\int_{0}^{4}\\left(3x - \\frac{x^{3}}{4}\\right)d x$",
     "mark": 3,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Find the volume of solid obtained formed by revolving the region formed by the curve $y = \\sqrt{9 - x^{2}}$ and the line $y = 0$ about the $x$ -axis.",
     "mark": 3,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "Find the area of the region enclosed by the curve $y^{2} - 4x = 4$ and line $4x - y = 16$",
     "mark": 2,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "State p-series and use it to determine the convergence and divergence of the given series: $\\sum_{n = 1}^{\\infty}\\frac{1}{n^{2}}$",
     "mark": 3,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 101",
     "question": "State the $n^{\\text{th}}$ root test of convergence of infinite series and use it to test the convergence of infinite series $\\sum_{n = 1}^{\\infty}\\left(\\frac{1}{n} -\\frac{1}{n^{2}}\\right)^{n}$",
     "mark": 3,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   }
 ]

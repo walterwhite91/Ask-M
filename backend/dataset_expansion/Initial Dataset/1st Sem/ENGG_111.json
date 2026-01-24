@@ -4,181 +4,233 @@
     "question": "What does Hook's law state? State the difference in stress-strain curves for ductile and brittle materials (Draw the figure and label them).",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Write short notes on (ANY FIVE):\na. Free body diagram\nb. Poisson's ratio\nc. Reynolds Number\nd. Entropy\ne. Zeroth law\nf. Bulk modulus",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Differentiate heat pump and refrigerator with suitable diagram.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Differentiate heat addition process in Otto cycle and Diesel cycle, also draw p-v diagram of both cycles.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "What is a no-slip boundary condition? State Newton's law of viscosity.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Water flows through a pipe AB 1.2 m diameter at 3 m/s and then passes through a pipe BC 1.5 m diameter. At C, the pipe branches. Branch CD is 0.8 m in diameter and carries one-third of the flow in AB. The flow velocity in branch CE is 2.5 m/s. Find the volume rate of flow in AB, the velocity in BC, the velocity in CD and the diameter of CE.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Define turbomachine. Differentiate between reaction and impulse turbine with example.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Explain briefly different types of bricks along with their properties. What are different requirement of good building stone?",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Differentiate between load bearing wall and partition wall. Describe different types of brick masonry with neat and labelled sketch.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Explain different factors to be considered while choosing the type of foundation? Explain different types of deep foundation with neat and labelled sketch.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "What are different characteristic of ideal bridge. Write down the advantages and disadvantages of earth fill dam.",
     "mark": 2,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Explain in brief about the principle of chain surveying. What do you understand by the term 'Offset' in surveying? Explain the different types of survey stations with proper illustration.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "What do you understand by local attraction? Explain in brief about the Whole Circle Bearing and Quadrantal Bearing System with suitable example.",
     "mark": 4,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Differentiate between active and passive remote sensing system.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "D"
+    "section": "D",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "What are the causes of foundation failure. Explain the different types of deep foundation with necessary diagram.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "List out the composition of brick. Explain the manufacture process of cement.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Define Plastering. Explain the Flemish Bond with sketch. Define Dam and list out its types.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Large continuous foundation supporting all the column of the structure is\na. Spread Foundation\nb. Mat Foundation\nc. Combined Foundation\nd. None of the above",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Granite is a\na. Igneous Rock\nb. Sedimentary Rock\nc. Metamorphic Rock\nd. Granite Rock",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "The standard size of brick as per Indian Standard (IS)(mm*mm*mm) is\na. $200^{*}100^{*}50$\nb. $230^{*}110^{*}55$\nc. $240^{*}90^{*}90$\nd. $190^{*}90^{*}90$",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Which brick is adopted well?\na. Good strength\nb. Well burnt\nc. Least absorption capacity\nd. All of the above",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "A structure providing passage over an obstacle without closing the way beneath is\na. Dam\nb. Bridge\nc. Masonry\nd. None of the above",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Explain equivalence of two statements of Second Law of Thermodynamics",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "A refrigerator is to remove heat from a cold space at a rate of $300\\mathrm{kJ / min}$ to maintain its temperature at $-8\\mathrm{C}$ . If the air surrounding the refrigerator is at $25\\mathrm{C}$ , determine the minimum power required for the refrigerator.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "Differentiate between Pelton and Francis turbine",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "ENGG 111",
     "question": "A car is moving with a velocity of 15 m/s. the car is brought to rest by applying brakes in 5 seconds. Determine: (a) the retardation and (b) distance travelled by the car after applying brakes.",
     "mark": 4,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   }
 ]

@@ -4,244 +4,314 @@
     "question": "Find the center of mass of a homogeneous semicircular plate of radius R.",
     "mark": 2.5,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Derive Newton's second law for system of variable mass.",
     "mark": 2.5,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Show that for a liquid in stream line motion $P + \\rho gh + \\frac{1}{2}\\rho v^2 = \\text{constant}$. The symbols have their usual meanings.",
     "mark": 2.5,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "State and prove the parallel axes theorem of moment of inertia. Find the moment of inertia of a circular disc of radius R and mass M about its diameter.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Establish the differential equation of motion for a damped harmonic oscillator and obtain the expression for displacement.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Derive an expression for M. I. of solid sphere (i) about z axis (about diameter) (ii) about tangent.",
     "mark": 2.5,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "A gas molecule having sped $300~\\mathrm{m / s}$ collides elastically with another molecule of same mass at rest initially. After collision, first molecule moves at an angle of $30^{\\circ}$ with initial direction. Find the velocities of molecules after collision and angle made by second molecule with initial direction.",
     "mark": 2.5,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Develop the Newton's second law of motion for system of a variable mass. Show that for a rocket system $M_{\\mathrm{f}} = M_{0} \\exp \\left[-\\nu_{\\mathrm{f}} / \\nu_{\\mathrm{rel}}\\right]$. Where the symbols have their usual meanings.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "In Young's double slit experiment, two slits are 0.5 mm apart and the distance of screen from the slit is 1 m. It is observed that the fourth bright fringes is at a distance of 2.945 mm from the second dark fringes. Calculate the wavelength of light used.",
     "mark": 2.5,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Derive the expressions for the energy and energy stored per unit volume in the stretched wire.",
     "mark": 2.5,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Obtain an expression for Poiseuille's formula for fluid flow in capillary tube.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "In Young's double slit experiment, the slits are separated by 0.28 mm and the screen is 1.4 m away. The distance between the central bright fringe and the fourth bright fringe is 1.2 cm. Find the frequency of light used. Use the standard value of velocity of light.",
     "mark": 2.5,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Discuss the phenomenon of double refraction and polarization by reflection.",
     "mark": 2.5,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "What is 1. ASL-R? Describe population inversion and pumping process for producing laser",
     "mark": 2.5,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "What is grating element? Show that intensity of secondary principal maxima is decreased when number of slits N increased in plane transmission grating.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Assume that limits of the visible spectrum are arbitrarily chosen as 4300 A and 5800 A. Design a grating that will spread the first-order spectrum through an angular range 20°.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Explain the theory of Newton's ring formed by coherent sources of light. Derive an expression for Jameter of n° bright and dark rings. Obtain an expression for wavelength of sodium light by using such ring.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "What is the full form of LASER? Provide any four significant applications of lasers in various fields.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Write short notes on (a) spontaneous emission (b) stimulated emission, and (c) population inversion.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Calculate the moment of inertia and radius of gyration of slender (uniform) rod about an axis passing through its center of mass and perpendicular to its length.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "State and prove the parallel and perpendicular axes theorem of moment of inertia.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "A gas molecule having a speed of $300 \\mathrm{~m} / \\mathrm{s}$ collides elastically with another molecule of the same mass which is initially at rest. After collision the first molecule moves at an angle of $30^{\\circ}$ to its initial direction. Find the speed of each molecule after collision and the angle made with the incident direction by the recoiling target molecule.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "A $200 \\mathrm{~kg}$ load is hung on a wire of length $4 \\mathrm{~m}$ , cross-sectional area $0.200 \\times 10^{-4} \\mathrm{~m}^{2}$ , and Young's modulus $8.0 \\times 10^{10} \\mathrm{~N} / \\mathrm{m}^{2}$ . What is its increase in length?",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "A solid brass sphere is initially surrounded by air, and the air pressure exerted on it is $1.0 \\times 10^{10} \\mathrm{~N} / \\mathrm{m}^{2}$ (normal atmospheric pressure). The sphere is lowered into the ocean to a depth where the pressure is $2.0 \\times 10^{7} \\mathrm{~N} / \\mathrm{m}^{2}$ . The volume of the sphere in air is $0.50 \\mathrm{~m}^{3}$ . By how much does this volume change once the sphere is submerged?",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "A bullet of mass $10 \\mathrm{~gm}$ strikes a ballistic pendulum of mass $2000 \\mathrm{~gm}$ . The center of mass of the pendulum rises a vertical distance of $0.12 \\mathrm{~m}$ . Assuming the bullet remains embedded in the pendulum, find its initial speed.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Establish the equation of continuity for an incompressible and non- viscous fluid flowing steadily through the tube. State Bernoulli's theorem and prove it for flow of fluid through the tube.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "What is coefficient of viscosity? Derive an expression for Poiseuille's formula for fluid flow in a capillary tube.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Describe the Fraunhoffer diffraction at N parallel slits and also plot the intensity distribution curve in such type of diffraction.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Obtain the fringe width for both bright and dark fringes in Young's double slit experiment.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "In a Newton's rings experiment, the diameter of $12^{\\text{th}}$ dark ring changes from 1.40 to 1.27 cm as a liquid is introduced between the lens and the glass plate. Calculate the refractive index of the liquid.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Establish the differential equation for forced or driven harmonic oscillation and solve it. Describe the condition for resonance and also sketch the nature of graph between amplitude and applied angular frequency.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Obtain the differential equation for damped harmonic oscillation and solve it. Discuss the following conditions: (i) over damping (ii) critical damping (iii) under damping",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "The radiation emitted by a star is 10,000 times more than that of the sun. If the surface temperature of the sun and the star is 6000 K and 2000 K respectively. Calculate the ratio of the radii of the star and the sun.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Light traveling in water strikes a glass plate at an angle of incidence of $53^{\\circ}$ , part of the beam is reflected. If the reflected and refracted portions make an angle of $90^{\\circ}$ with each other, what is the index of refraction of the glass?",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   },
   {
     "subject": "PHYS101",
     "question": "Establish the Newton's second law of motion for the system of a variable mass. Show that for a rocket system $M_f = M_0 \\exp (-v_f / v_{\\text{rel}})$ , where the symbols have their usual meanings",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
   }
 ]

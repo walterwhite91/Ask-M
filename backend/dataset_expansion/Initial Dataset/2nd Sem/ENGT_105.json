@@ -4,209 +4,269 @@
     "question": "Develop a Concept Paper on ONE of the following subjects. Make sure to specify a research problem/question.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Develop the Introduction OR Project Description section of a formal proposal based on ONE of the following titles/tasks.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Prepare a short Internal Report being focused on [a specific issue, e.g., managing library facilities, course handling].",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Prepare a topic outline of a [Research Article/Research Proposal/Formal Letter/Long Report] and write what is written in each component.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Prepare a power point presentation / model of at least [number] slides for oral presentation on [topic].",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Compose a suitable message/email OR write a formal letter for a specific scenario (e.g., to a professor, group members, or a character like Svetlovidov).",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Process analysis includes a review of all steps and procedures followed to perform a given activity. Demonstrate your understanding of the concept with reference to any project work that you performed this semester.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Read the following piece of text... a. Write a paragraph on the above piece of text in view of how it applies the parameters of Toulmin's Model... b. Present your own interpretation and assimilation of the above text.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Cause and effect rhetorical strategy is used in a number of write-ups prescribed in ENGTT 105 course. Refer to any two texts to illustrate the use of this rhetorical strategy.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Charles van Doren's write- up refers to the work of ancient Greeks while narrating the advancement in atom and DNA study in twentieth century. Do these references to the Greeks read logical? Justify.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Communication requires sender, receiver, message, among others in its process. Demonstrate your understanding of the elements of communication with reference to an email.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Oral presentation process begins with prewriting... Prepare a flowchart, showing the process followed for oral presentation.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Prepare a topic outline of a research proposal, and write literature review using the information from the following abstracts.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Narration, as a rhetorical strategy, has been employed in various texts studied this semester. Analyze how this strategy is utilized in the texts \"The Making of a Scientist.\" \"The Myth of Sisyphus,\" and \"The Allegory of the Cave.\"",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "What implications does Sagan suggest for broader societal issues if skepticism is not cultivated? How does skepticism contribute to addressing or mitigating societal challenges according to the text?",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Analyze the theme of individuality and the consequences of decision- making in Proxy Frost's \"The Road Not Taken.\" How does the poem use the metaphor of the diverging reaction to explore the narrator's sense of self and the significance of choices in shaping creativity?",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Prepare a resume for the following candidate: [Description of a Mining Engineer candidate].",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "You are one of a supervisor of the Engineering Project. Write a MEMO to your head of the department requesting him for providing the project materials and postponing the final proposal defense.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Both texts explore the theme of choices- Frost's speaker faces a literal crossroads, while Chekhov's protagonist reflects on past decisions. How does each work depict the consequences of choice, and do they suggest that regret is an inevitable part of life?",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Both Camus and Plato explore the struggle between ignorance and enlightenment. How does Sisyphus' endless labor compare to the prisoners in Plato's cave? Can we view human existence as a cycle of escaping one illusion only to face another?",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "V. S. Ramachandran blends neuroscience with philosophy in his work. How does his interdisciplinary approach influence the way we perceive scientific truth, and what are the potential drawbacks of such a method?",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "What is Armand Denis's main conclusion in the \"The Four-Tasked Elephant\"?",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "How, according to Bertrand Russell, can an \"imaginary dialogue\" help avoid biases?",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Why did the narrator dislike Max Kelada? Was his dislike justified? Explain.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "\"Unlike the Easter Islanders, we have histories of the past - information that can save us.\" Present your argument for or against this statement by Jared Diamond.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "How does Devkota describe the blind and the cave-penancer? Explain why you agree or disagree with such description.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "\"Where you've got talent there's no room for old age.\" Explain with reference to the play. \"Swan Song.\"",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Audiences are the key components in communication. How can the various types of audiences be recognized/identified? Explain with appropriate examples.",
     "mark": 2.5,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "Discuss the components of Toulmin's model of argumentation and identify them in the following paragraph. \n\nThe proliferation of social media platforms has fundamentally altered political discourse, often to the detriment of democratic processes. Social media has transformed the landscape of political communication, often undermining the quality of democratic debate. Research from the Pew Research Center indicates that social media platforms are breeding grounds for misinformation and echo chambers, where users are only exposed to viewpoints that reinforce their preexisting beliefs. The quality of democratic discourse relies on the free exchange of diverse perspectives and accurate information. Studies have shown that exposure to diverse viewpoints and fact-based information fosters a more informed and engaged electorate. While, social media can enhance civic engagement and mobilize grassroots movements, these benefits are often overshadowed by the spread of misinformation and polarization. Some argue that, social media democratizes information dissemination and empowers marginalized voices. However, without adequate measures to ensure the accuracy and integrity of the information being shared, these platforms can do more harm than good.",
     "mark": 2.5,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "design"
   },
   {
     "subject": "ENGT 105",
     "question": "You are a member of the University Sports Club. Draft an email to all students inviting them to register for the upcoming Inter-College Sports Meet. Also include other necessary details such as event categories, registration process, practice sessions, deadlines, contact for further information.",
     "mark": 5,
     "paper_type": "internal",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "design"
   }
 ]

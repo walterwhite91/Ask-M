@@ -4,391 +4,503 @@
     "question": "Find the area of the region R bounded by $y = x$ and $y = x^{2}$ in the first quadrant.",
     "mark": 2,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Change to Polar form and then evaluate $\\int_{- \\alpha}^{\\alpha} \\int_{- \\sqrt{\\alpha^{2} - x^{2}}}^{\\sqrt{\\alpha^{2} - x^{2}}} dy dx$ .",
     "mark": 2,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Evaluate $\\int_{0}^{3} \\int_{0}^{4} \\int_{x = y / 2}^{x = \\frac{y}{2} + 1} \\left(\\frac{2x - y}{2} + \\frac{z}{3}\\right) dx dy dz$ by applying the transformation;\n$u = \\frac{2x - y}{2}, v = \\frac{y}{2}, w = \\frac{z}{3}$\nand integrate over an appropriate region in uvw- space.",
     "mark": 4,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Prove $\\int_{0}^{\\pi /2} \\frac{dx}{\\sqrt{\\sin x}} \\times \\int_{0}^{\\pi /2} \\sqrt{\\sin x} dx = \\pi$ . Using gamma function.",
     "mark": 2,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the particle's velocity and acceleration vectors. Then find particle's speed and direction of motion at the given value of $t$. write the particle's velocity at that time as product of its speed and direction.\n$\\vec{r} (t) = (2cost)\\vec{i} +(3sint)\\vec{j} +4t\\vec{k},t = \\pi /2.$",
     "mark": 4,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find $\\vec{T}, \\vec{N}, \\kappa$ for the space curve\n$\\vec{\\mathcal{H}} (t) = (cost + tsint)\\vec{i} +(sint - tcost)\\vec{j} +3\\vec{k}.$",
     "mark": 3,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Verify either of the form of Green's theorem for the field\n$\\vec{F} (x, y) = (x, y) \\vec{i} + x \\vec{j}$ and the region R bounded by unit circle\n$\\vec{r} (t) = (cost)\\vec{i} +(sint)\\vec{j},0\\leq t\\leq 2\\pi .$",
     "mark": 3,
     "paper_type": "internal",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the area of the region that lies inside the circle $r = 1$ and outside the cardioid $r = 1 - \\cos \\theta$.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Define directional derivative and discuss its properties. Find the derivative of a function at a point in a specific direction. Determine directions of most rapid increase and decrease.\n(a) Function: $f(x,y) = x^{3} - xy^{2}$ at $P_0(1,1)$\n(b) Function: $f(x,y) = x^{2} + xy + y^{2}$ at $P_0(- 1,1)$\n(c) Function: $f(x,y) = 2xy - 3y^{2}$ at $P_0(5,5)$",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Define unit tangent vector $(\\vec{T})$, principal unit normal vector $(\\vec{N})$ and curvature $(\\kappa)$. Find these for a given space curve.\n(a) Curve: $\\vec{r} (t) = (3\\sin t)\\vec{i} +(3\\cos t)\\vec{j} +4t\\vec{k}$\n(b) Curve: $\\vec{r} (t) = 3\\sin t\\vec{i} - 3\\cos t\\vec{j} +4t\\vec{k}$\n(c) Curve: $\\vec{r} (t) = a\\cos t\\vec{i} +a\\sin t\\vec{j} +bt\\vec{k}$",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Define conservative vector field and potential function. Verify whether a vector field is conservative and find its potential function if it is.\n(a) Field: $\\vec{F} = (2xy)\\vec{i} +(x^{2} + z)\\vec{j} +(y)\\vec{k}$\n(b) Field: $\\vec{F} = y\\vec{i} +x\\vec{j} +4\\vec{k}$",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "State Green's theorem and verify it for a given vector field and region (typically a circle).\n(a) Field: $\\vec{F} = - x^{2}y\\vec{i} +xy^{2}\\vec{j}$ Circle: $\\vec{r} (t) = (a\\cos t)\\vec{i} +(a\\sin t)\\vec{j}$\n(b) Field: $\\vec{F} = (x - y)\\vec{i} +x\\vec{j}$ Circle: $\\vec{r} (t) = \\cos t\\vec{i} +\\sin t\\vec{j}$\n(c) Field: $\\vec{F} = - x^{2}\\vec{i} +xy^{2}\\vec{j}$ Circle: $\\vec{r} (t) = a\\cos t\\vec{i} +a\\sin t\\vec{j}$",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Define Beta and Gamma functions, prove their relationship, and use them to evaluate integrals.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the Fourier series expansion of a piecewise function (typically a square wave).\n(a) $f(x) = \\left\\{ \\begin{array}{ll} - 1, & -\\pi < x< 0\\\\ 1, & 0< x< \\pi \\end{array} \\right.$\n(b) $f(x) = \\left\\{ \\begin{array}{ll}1, & -\\pi < x< 0\\\\ - 1, & 0< x< \\pi \\end{array} \\right.$\n(c) $f(x) = \\left\\{ \\begin{array}{ll}0, & -\\pi < x< 0\\\\ x, & 0< x< \\pi \\end{array} \\right.$",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the limit (if it exists) of a function as $(x,y)$ approaches $(0,0)$ and discuss continuity at the origin.\n(a) $f(x,y) = \\frac{2x^{2}y}{x^{2}y + y^{2}}$\n(b) $f(x,y) = \\frac{2x^{2}y}{x^{2} + y^{2}}$",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find critical points and discuss local extrema of a function, or find absolute maximum and minimum values on a region.",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Change a Cartesian integral into an equivalent polar integral and evaluate it.\n(a) $\\int_{0}^{1} \\int_{0}^{\\sqrt{1 - y^{2}}} (x^{2} + y^{2}) dx dy$\n(b) $\\int_{-1}^{1} \\int_{0}^{\\sqrt{1 - x^{2}}} (x^{2} + y^{2}) dy dx$",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Use the Gamma function to evaluate $\\int_{0}^{\\infty} e^{- x^{2}} dx$",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Solve an initial value problem involving a second derivative.\n(a) $\\frac{d^{2} x}{d t^{2}} = - 32 \\frac{k}{t}$\n(b) $\\frac{d^{2}}{d t} = (t^{3} + 4 t) i + t j + 2 t^{2} k$",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Convert coordinates between Cartesian, cylindrical, and spherical systems.\n(a) Cartesian (0, 1, 0) to spherical and cylindrical\n(b) Polar (2, $\\frac{2 \\pi}{3}, 1$ ) to spherical and cylindrical",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Draw the graph of the polar curve $r^2 = \\sin 2\\theta$.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Evaluate $\\int_0^3\\int_0^4\\int_{x = 2}^{x = 2}\\left(\\frac{2x - y}{2} +\\frac{z}{3}\\right)dxdydz$ by applying the transformation: $u = \\frac{2x - y}{2},v = \\frac{y}{2},w = \\frac{z}{3}$ by integrating it over an appropriate region in uvw-space. Find the average value of the function $f(x,y) = x\\cos xy$ over the rectangular region, $R:0\\leq x\\leq \\pi ,0\\leq y\\leq 1$",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Define the periodic function and its fundamental period with examples. Write the fundamental period of the function $f(x) = \\sin \\frac{x}{2}$. Find the Fourier series expansion of the periodic function $f(x) = \\begin{cases} 0, & - 2< x< - 1\\\\ k, & - 1< x< 1\\\\ 0, & 1< x< 2 \\end{cases}$ of period $T = 4$",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the area of the region in the plane enclosed by the cardioid $r = 2(1 + \\cos \\theta)$.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the directions and rates in which the function $f(x,y) = x^2 +y^2 +xy$ increases and decreases most rapidly at the point $P(1, - 1)$. Also find the directions of zero changes at the point $P$.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the absolute maximum and minimum values of $f(x,y) = 2 + 2x + 3y - y^2 - y^3$ on the triangular plate in the first quadrant bounded by the lines $x = 0,y = 0,y = 9 - x$.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "State the first Fubini's Theorem. Evaluate the integral $\\int_{0}^{2}\\int_{x^{2}}^{2x}(4x + 2)dydx$ by changing the order of integration.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Prove that $\\beta (m, n) = \\frac{\\Gamma(m)\\Gamma(n)}{\\Gamma(m + n)}$, where the symbols have their usual meanings.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the circulation of the vector field $\\vec{F} = (x^{2} - y)\\vec{i} + 4z\\vec{j} + y^{2}\\vec{k}$ around the circle in which the plane $z = \\vec{i}$ meets the cone $z = \\sqrt{x^{2} + y^{2}}$ in counterclockwise sense.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the flux of the vector field $\\vec{F} = 2x\\vec{i} - 3y\\vec{j}$ across the circle $x^{2} + y^{2} = 1$",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Discuss the Fubini's theorems for evaluating the double integration in a rectangular and non-rectangular region. Find the volume of the region bounded above by the paraboloid $z = x^{2} + y^{2}$ and below by the triangle enclosed by the lines $y = x, y = 0$ and $x + y = 1$ in the xy-plane.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Define unit tangent, unit normal and Binormal vectors of a space curve $\\vec{r} = \\vec{r}(t)$. Find the curvature and the torsion of the space curve $\\vec{r} (t) = 3\\sin t\\vec{i} - 3\\cos t\\vec{j} + 4t\\vec{k}$",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Explain how circulation and flux can also be calculated using Green's theorems in the square bounded by the lines $x = 0, x = 1, y = 0, y = 1$. Find the circulation and flux of a vector field along and across a simple closed curve $C$. Apply Green's theorem to find the counterclockwise circulation and outward flux equation.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the eccentricity, directrix and type of the conic whose polar equation is [not fully specified in original document].",
     "mark": 5,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the maximum and minimum values of the function $f(x,y) = x^{2} + y^{2}$ subject to the constraint $x^{2} - 2x + y^{2} - 4y = 0$.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the surface area of the portion of the paraboloid whose equation is given by $\\vec{r} (r,\\theta) = (r\\cos \\theta)\\vec{i} +(r\\sin \\theta)\\vec{j} +r^{2}\\vec{k},0\\leq r\\leq 2,0\\leq \\theta \\leq 2\\pi .$",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Define Beta and Gamma functions. Prove the relation $B(m,n) = \\frac{\\Gamma(m)\\Gamma(n)}{\\Gamma(m + n)}$ for $m,n > 0$.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Prove the relation $\\int_{0}^{\\pi /2}\\sin^{n}\\theta \\cos^{n}\\theta d\\theta = \\frac{\\Gamma\\left(\\frac{n + 1}{2}\\right)\\Gamma\\left(\\frac{n + 1}{2}\\right)}{\\Gamma\\left(\\frac{n + 1}{2}\\right)}$. Use this relation to evaluate the integral $\\int_{0}^{\\pi /2}\\sin^{4}\\theta \\cos^{6}\\theta d\\theta$.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Discuss and sketch the cardioid $r = a(1 + \\cos \\theta),a > 0$ and find the area of the region inside this cardioid.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Define curvature and radius of curvature of a curve. Find $\\vec{T},\\vec{N},\\kappa$ and $\\rho$ of the plane curve $\\vec{r} (t) = t\\vec{i} +(\\log \\cos t)\\vec{j}, - \\frac{\\pi}{2} < t< \\frac{\\pi}{2}$ where the symbols have their usual meanings.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Evaluate $\\int_{0}^{\\pi /2}\\int_{0}^{3}\\sin zdxdy dz$.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Use Beta and Gamma functions to evaluate the integral $\\int_{0}^{1}x^{3}(1 - x)^{2}dx.$",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Verify that $\\frac{\\partial^2 f}{\\partial x\\partial y} = \\frac{\\partial^2 f}{\\partial y\\partial x}$ for the function $f(x,y) = x\\cos y + y\\alpha^r$",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the work done by $\\vec{F} (x,y,z) = 6z\\vec{i} +y\\vec{j} +12x\\vec{k}$ over the curve $\\vec{r} (t) = (\\sin t)\\vec{i} +(\\cos t)\\vec{j} +(\\frac{t}{6})\\vec{k},0\\leq t\\leq 2\\pi .$",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the center and radius of the circle $r = 2a\\cos \\theta$ where $a$ is a constant.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "If $\\vec{u}$ and $\\vec{v}$ be differentiable vector functions of $t$ then show that $\\frac{d}{dt} (\\vec{u}\\cdot \\vec{v}) = \\frac{d\\vec{u}}{dt}\\cdot \\vec{v} +\\vec{u}\\cdot \\frac{d\\vec{v}}{dt}.$",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Change the Cartesian integral $\\int_{- 1}^{1}\\int_{-\\sqrt{1 - x^2}}^{\\sqrt{1 - x^2}}dydx$ into polar integral, and then evaluate the integral.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Show that the function $f(x,y) = \\left\\{ \\begin{array}{ll}\\frac{x^2y}{x^2 + y^2}, & (x,y)\\neq (0,0)\\\\ 0, & (x,y) = (0,0) \\end{array} \\right.$ is continuous at origin.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Define $\\vec{T}, \\vec{N}, \\vec{B}$ and find them for the curve $\\vec{r} (t) = e^{t} \\cos t \\vec{i} + e^{t} \\sin t \\vec{j} + 2 \\vec{k}$, the symbols have their usual meanings.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "State the Second Derivative Test for evaluating local maxima, local minima, critical points, and saddle points for a function $f(x, y)$. Also, use this method to find local extrema of $f(x, y) = x^{3} + y^{3} + 3x^{2} - 3y^{2} - 8$.",
     "mark": 7,
     "paper_type": "endsem",
-    "section": "C"
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the equation of the plane tangent to the surface $z = e^{(x^{2} + y^{2})}$ at $(0, 0, 1)$.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Evaluate $\\int_{0}^{2} \\frac{\\sqrt{4 - y^{2}}}{4 - y^{2}} \\int_{0}^{2 - x - y} dz dx dy$.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "State the Gamma function and use it to evaluate $\\int_{0}^{\\pi /2} \\sin^{6} \\theta \\cdot \\cos^{7} \\theta d\\theta$.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the flow along the helix $\\vec{r} (t) = \\cos t \\vec{i} + \\sin t \\vec{j} + t \\vec{k}; 0 \\leq t \\leq \\frac{\\pi}{2}$ for a fluid's velocity field $\\vec{F} = x \\vec{i} + z \\vec{j} + y \\vec{k}$.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Find the length of Cardioid: $r = 2 + 2 \\cos \\theta$.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   },
   {
     "subject": "MATH 104",
     "question": "Write the geometrical meaning of first order partial derivative of $f(x, y, z)$. Also, if $w = x^{2} + y - z + \\sin t, x + y = t$ then find $\\left(\\frac{\\partial w}{\\partial t}\\right)_{x, z}$.",
     "mark": 3,
     "paper_type": "endsem",
-    "section": "B"
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
   }
 ]
