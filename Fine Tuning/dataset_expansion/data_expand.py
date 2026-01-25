@@ -14,7 +14,7 @@ API_URL = "https://api.deepseek.com/chat/completions"
 
 INPUT_FILE = "test_merged_dataset.json"
 OUTPUT_FILE = "test_expanded_dataset.jsonl"
-FAILED_FILE = "failed_seeds.json"
+FAILED_FILE = "test_failed_seeds.json"
 CHECKPOINT_FILE = "test_checkpoint.txt"
 
 MAX_TOKENS = 1400
@@ -189,6 +189,12 @@ Section: {item.get('section', 'unknown')}
 
 Question:
 {item['question']}
+
+----------IMPORTANT OUTPUT RULES----------
+- Output ONE valid JSON object.
+- Newlines inside strings are allowed.
+- Do NOT include markdown.
+- Do NOT include text outside JSON.
 
 ----------EXAM MODE INSTRUCTIONS----------
 - STRICTLY optimize for {item['mark']} marks.
