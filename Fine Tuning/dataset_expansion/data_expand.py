@@ -6,22 +6,22 @@ import requests
 from tqdm import tqdm
 
 # conf
-MODEL_NAME = "deepseek-chat"  # currently using DeepSeek v3.2 chat model, not using reasoning as its note required. Also explicitly using deepseek as its trained on STEM datasets and its cheap
+MODEL_NAME = "deepseek-chat"  # currently using DeepSeek v3.2 chat model (non-thinking), not using reasoning as its note required. Also explicitly using deepseek as its trained on STEM datasets and its cheap
 
 INPUT_FILE = "test_merged_dataset.json"
 OUTPUT_FILE = "test_expanded_dataset.jsonl"
+FAILED_FILE = "failed_seeds.json"
 CHECKPOINT_FILE = "test_checkpoint.txt"
 
 MAX_TOKENS = 1400
 TEMPERATURE = 0.2
-REQUEST_DELAY = 1.5  # seconds (saans ferna deko)
+REQUEST_DELAY = 1.5
 
 API_URL = "https://api.deepseek.com/chat/completions"
 
-#export DEEPSEEK_API_KEY="sk-..." in your environment before running
 API_KEY = os.environ.get("DEEPSEEK_API_KEY")
 if not API_KEY:
-    raise RuntimeError('DEEPSEEK_API_KEY not found in environment. Bruh why did you forget to set it?')
+    raise RuntimeError("DEEPSEEK_API_KEY not found in environment")
 
 # prompt based on family
 def get_prompt_math_phys(item):
@@ -31,15 +31,17 @@ You are generating a Kathmandu University exam answer AND a guided tutoring answ
 Subject: {item['subject']}
 Semester: {item['semester']}
 Marks: {item['mark']}
-Paper Type: {item.get('paper_type', 'unknown')}
-Section: {item.get('section', 'unknown')}
 
 Question:
 {item['question']}
 
-========================
-EXAM MODE INSTRUCTIONS
-========================
+----------IMPORTANT OUTPUT RULES----------
+- Output MUST be valid JSON only.
+- All new lines inside strings MUST be written as \\n (do not use raw line breaks).
+- Do NOT include unescaped double quotes inside any string value.
+- Do NOT add any text outside the JSON object.
+
+----------EXAM MODE INSTRUCTIONS----------
 - STRICTLY optimize for {item['mark']} marks.
 - Write exactly how a KU student would write in exams.
 - Avoid unnecessary theory or beautification.
@@ -59,31 +61,25 @@ For numericals / derivations:
   "Hence,"
 - Skip any keyword if it feels forced.
 
-========================
-GUIDED MODE INSTRUCTIONS
-========================
+----------GUIDED MODE INSTRUCTIONS----------
 - Level: Beginner → Intermediate.
 - Explain physical intuition FIRST, math later.
 - Break the explanation into small logical steps.
 - It is okay to repeat ideas in simpler words.
 - Guided mode may be longer than exam mode.
 
-========================
-FOLLOW-UP QUESTIONS
-========================
+----------FOLLOW-UP QUESTIONS----------
 Exam follow-up:
 - Generate EXACTLY ONE question.
 - It must be more complex OR from the next syllabus topic.
 
-Guided follow-up:
+----------Guided follow-up:----------
 - Generate EXACTLY THREE questions:
   1. Check understanding of the core principle.
   2. Identify key variables / assumptions.
   3. Bridge intuition to mathematics.
 
-========================
-OUTPUT FORMAT (STRICT JSON ONLY)
-========================
+----------OUTPUT FORMAT (STRICT JSON ONLY)----------
 {{
   "results": [{{
     "subject": "{item['subject']}",
@@ -115,15 +111,12 @@ You are generating a Kathmandu University programming exam answer AND a guided t
 Subject: {item['subject']}
 Semester: {item['semester']}
 Marks: {item['mark']}
-Paper Type: {item.get('paper_type', 'unknown')}
-Section: {item.get('section', 'unknown')}
 
 Question:
 {item['question']}
 
-========================
-EXAM MODE INSTRUCTIONS
-========================
+----------EXAM MODE INSTRUCTIONS----------
+
 - STRICTLY optimize for {item['mark']} marks.
 - Write as a KU student would in exams.
 - Correctness > verbosity.
@@ -131,18 +124,16 @@ EXAM MODE INSTRUCTIONS
 - Use C/C++ syntax where applicable.
 - Include examples ONLY if marks justify it.
 
-========================
-GUIDED MODE INSTRUCTIONS
-========================
+----------GUIDED MODE INSTRUCTIONS----------
+
 - Level: Beginner → Intermediate.
 - Explain the idea first, then syntax.
 - Break logic into small steps.
 - Avoid assuming deep prior knowledge.
 - Guided mode may be longer than exam mode.
 
-========================
-FOLLOW-UP QUESTIONS
-========================
+----------FOLLOW-UP QUESTIONS----------
+
 Exam follow-up:
 - Generate EXACTLY ONE question.
 - More complex OR next syllabus topic.
@@ -153,9 +144,7 @@ Guided follow-up:
   2. What are the main components / flow?
   3. How does it work in an actual program?
 
-========================
-OUTPUT FORMAT (STRICT JSON ONLY)
-========================
+----------OUTPUT FORMAT (STRICT JSON ONLY)----------
 {{
   "results": [{{
     "subject": "{item['subject']}",
@@ -192,39 +181,31 @@ Section: {item.get('section', 'unknown')}
 Question:
 {item['question']}
 
-========================
-EXAM MODE INSTRUCTIONS
-========================
+----------EXAM MODE INSTRUCTIONS----------
 - STRICTLY optimize for {item['mark']} marks.
 - Write exactly as a KU student would in exams.
 - Be structured and concise.
 - Do NOT attempt to draw diagrams.
 - Explain steps, standards, or conventions instead.
 
-========================
-GUIDED MODE INSTRUCTIONS
-========================
+----------GUIDED MODE INSTRUCTIONS----------
 - Level: Beginner → Intermediate.
 - Explain the purpose first, then the procedure.
 - Break explanations into clear steps.
 - Avoid unnecessary technical depth.
 
-========================
-FOLLOW-UP QUESTIONS
-========================
+----------FOLLOW-UP QUESTIONS----------
 Exam follow-up:
 - Generate EXACTLY ONE question.
 - More complex OR next syllabus task.
 
-Guided follow-up:
+----------Guided follow-up:----------
 - Generate EXACTLY THREE questions:
   1. Why is this concept / step important?
   2. What are the main rules or conventions?
   3. How is it applied in practice or exams?
 
-========================
-OUTPUT FORMAT (STRICT JSON ONLY)
-========================
+----------OUTPUT FORMAT (STRICT JSON ONLY)----------
 {{
   "results": [{{
     "subject": "{item['subject']}",
@@ -250,18 +231,47 @@ Rules:
 
 def route_prompt(item):
     family = item.get("family")
-
     if family == "math_phys":
         return get_prompt_math_phys(item)
     elif family == "programming":
         return get_prompt_programming(item)
     elif family == "design":
         return get_prompt_design(item)
-    else:
+    return None
+
+# ---------------- MINIMAL JSON REPAIR ----------------
+
+def try_parse_json(raw_text):
+    """
+    Minimal, SAFE repair attempts only.
+    Returns dict or None.
+    """
+    try:
+        return json.loads(raw_text)
+    except:
+        pass
+
+    # trim to outer JSON
+    start = raw_text.find("{")
+    end = raw_text.rfind("}") + 1
+    if start == -1 or end <= start:
         return None
 
-# calling the model
-def call_model(prompt, retries=4):
+    cleaned = raw_text[start:end]
+
+    # minimal sanitation
+    cleaned = cleaned.replace("“", "\"").replace("”", "\"")
+    cleaned = cleaned.replace(",\n}", "\n}")
+    cleaned = cleaned.replace(",}", "}")
+
+    try:
+        return json.loads(cleaned)
+    except:
+        return None
+
+# ---------------- MODEL CALL ----------------
+
+def call_model(prompt, retries=3):
     headers = {
         "Authorization": f"Bearer {API_KEY}",
         "Content-Type": "application/json"
@@ -269,9 +279,7 @@ def call_model(prompt, retries=4):
 
     payload = {
         "model": MODEL_NAME,
-        "messages": [
-            {"role": "user", "content": prompt}
-        ],
+        "messages": [{"role": "user", "content": prompt}],
         "temperature": TEMPERATURE,
         "max_tokens": MAX_TOKENS
     }
@@ -285,31 +293,23 @@ def call_model(prompt, retries=4):
             if resp.status_code != 200:
                 raise RuntimeError(resp.text)
 
-            # OpenAI-compatible (API contract type) response shape 
             text = resp.json()["choices"][0]["message"]["content"]
+            parsed = try_parse_json(text)
 
-            # Extract JSON object from model output (in case of extra text)
-            start = text.find("{")
-            end = text.rfind("}") + 1
-            if start == -1 or end == 0:
-                return None
+            if parsed:
+                return parsed
 
-            clean = text[start:end]
-            return json.loads(clean)
+            raise ValueError("JSON parse failed")
 
         except Exception as e:
             if attempt == retries - 1:
-                print("Call failed:", e)
-                return None
-
+                return {"__error__": str(e)}
             time.sleep(delay)
             delay *= 2
 
-# main
-def main():
-    if not os.path.exists(INPUT_FILE):
-        raise FileNotFoundError(f"Input file not found: {INPUT_FILE}")
+# ---------------- MAIN ----------------
 
+def main():
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         seeds = json.load(f)
 
@@ -318,33 +318,49 @@ def main():
         try:
             start_idx = int(open(CHECKPOINT_FILE).read().strip())
         except:
-            start_idx = 0
+            pass
 
     print(f"Starting dataset generation using {MODEL_NAME}")
     print(f"Resuming from index: {start_idx}")
 
+    failed = []
+
     for i in tqdm(range(start_idx, len(seeds))):
         item = seeds[i]
-
         prompt = route_prompt(item)
-        if prompt is None:
-            print(f"Skipping index {i}: unknown family")
+
+        if not prompt:
+            failed.append({"index": i, "seed": item, "error": "Unknown family"})
             continue
 
-        data = call_model(prompt)
+        result = call_model(prompt)
 
-        if data and "results" in data:
-            with open(OUTPUT_FILE, "a", encoding="utf-8") as out:
-                for obj in data["results"]:
-                    out.write(json.dumps(obj, ensure_ascii=False) + "\n")
-                    out.flush()
+        if "__error__" in result or "results" not in result:
+            failed.append({
+                "index": i,
+                "seed": item,
+                "error": result.get("__error__", "Invalid output")
+            })
+            continue
 
-            with open(CHECKPOINT_FILE, "w") as ck:
-                ck.write(str(i + 1))
+        # write output
+        with open(OUTPUT_FILE, "a", encoding="utf-8") as out:
+            for obj in result["results"]:
+                out.write(json.dumps(obj, ensure_ascii=False) + "\n")
+
+        # checkpoint only on success
+        with open(CHECKPOINT_FILE, "w") as ck:
+            ck.write(str(i + 1))
 
         time.sleep(REQUEST_DELAY)
 
+    # save failed seeds
+    if failed:
+        with open(FAILED_FILE, "w", encoding="utf-8") as f:
+            json.dump(failed, f, indent=2, ensure_ascii=False)
+
     print("Bhayo finally!! Hurray!!!")
+    print(f"Failed items saved to {FAILED_FILE}")
 
 if __name__ == "__main__":
     main()
