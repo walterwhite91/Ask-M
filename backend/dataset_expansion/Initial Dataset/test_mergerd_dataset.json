@@ -1,0 +1,164 @@
+[
+  {
+    "subject": "CHEM 101",
+    "question": "Define azeotrope mixture. Show that $\\Delta T = K_{f}m$\nThe freezing point depression constant for mercuric chloride, $HgCl_{2}$ , is 34.3. for a solution of $0.849\\mathrm{gm}$ of mercurous chloride, (empirical formula $HgCl$ ) in $50\\mathrm{gm}$ of $HgCl_{2}$ , the freezing point depression is $1.24^{\\circ}\\mathrm{C}$ . What is the molecular weight of mercurous chloride in this solution? What is its molecular formula?",
+    "mark": 6,
+    "paper_type": "endsem",
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
+  },
+  {
+    "subject": "COMP 102",
+    "question": "Define storage class in C. Explain different types of storage class in C programming.",
+    "mark": 4,
+    "paper_type": "endsem",
+    "section": "B",
+    "semester": 1,
+    "family": "programming"
+  },
+  {
+    "subject": "EDRG 101",
+    "question": "A circle of diameter 40 mm rolls outside a circular arc of radius 60 mm for one and half revolution. Draw the locus of a point, lying at a distance of 30 mm from center of rolling circle.",
+    "mark": 12,
+    "paper_type": "endsem",
+    "section": "B",
+    "semester": 1,
+    "family": "design"
+  },
+  {
+    "subject": "ENGG 111",
+    "question": "Write short notes on (ANY FIVE):\na. Free body diagram\nb. Poisson's ratio\nc. Reynolds Number\nd. Entropy\ne. Zeroth law\nf. Bulk modulus",
+    "mark": 3,
+    "paper_type": "endsem",
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
+  },
+  {
+    "subject": "MATH 101",
+    "question": "A spherical balloon is inflated with helium at the rate of $200\\pi ft^{3} / min$ . How fast is the balloon's surface area increasing at the instant radius is $10ft$ ?\nb) Define point of inflection. Show that the function $y = x^{4}$ has no point of inflection.",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C",
+    "semester": 1,
+    "family": "math_phys"
+  },
+  {
+    "subject": "PHYS101",
+    "question": "Show that for a liquid in stream line motion $P + \\rho gh + \\frac{1}{2}\\rho v^2 = \\text{constant}$. The symbols have their usual meanings.",
+    "mark": 2.5,
+    "paper_type": "internal",
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
+  },
+  {
+    "subject": "COMP 116",
+    "question": "What are exceptions in C++? What is the way to handle exceptions in C++? Explain with syntax.",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "B",
+    "semester": 2,
+    "family": "programming"
+  },
+  {
+    "subject": "EDRG 102",
+    "question": "Pictorial view of an object is shown in figure 2. Draw its Front View, Top View and left side view by using Third Angle Projection System.",
+    "mark": 5,
+    "paper_type": "internal",
+    "section": "C",
+    "semester": 2,
+    "family": "design"
+  },
+  {
+    "subject": "ENGG 112",
+    "question": "Determine the power dissipated in $7\\Omega$ resistor of Fig. 1 using nodal analysis.",
+    "mark": 4,
+    "paper_type": "internal",
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
+  },
+  {
+    "subject": "ENGT 105",
+    "question": "Develop the Introduction OR Project Description section of a formal proposal based on ONE of the following titles/tasks.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C",
+    "semester": 2,
+    "family": "design"
+  },
+  {
+    "subject": "ENVE 101",
+    "question": "A city is experiencing water shortages despite receiving adequate rainfall annually. Analyze the role of different hydrological cycle processes that might be affecting water availability. Suggest engineering solutions to improve water conservation and sustainable water management.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
+  },
+  {
+    "subject": "MATH 104",
+    "question": "Change to Polar form and then evaluate $\\int_{- \\alpha}^{\\alpha} \\int_{- \\sqrt{\\alpha^{2} - x^{2}}}^{\\sqrt{\\alpha^{2} - x^{2}}} dy dx$ .",
+    "mark": 2,
+    "paper_type": "internal",
+    "section": "B",
+    "semester": 2,
+    "family": "math_phys"
+  },
+  {
+    "subject": "PHYS 102",
+    "question": "Show that the electric field of a (pure) dipole is given by:\n$\\vec{E}_{\\mathrm{dip}}(\\vec{r}) = \\frac{1}{4\\pi\\epsilon_0}\\frac{1}{r^3} [3(\\vec{p}\\cdot \\vec{r})\\vec{r} -\\vec{p} ]$.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C",
+    "semester": 2,
+    "family": "math_phys"
+  },
+  {
+    "subject": "COMP 202",
+    "question": "What is the difference between file structure and storage structure? How can you implement a stack using queues?",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "B",
+    "semester": 3,
+    "family": "programming"
+  },
+  {
+    "subject": "EEEG 202",
+    "question": "a. Simplify the following Boolean expression using K-Map and implement the resulting expression using only NOR gates:\n$F(A,B,C,D)=A(C(BD+BD)+BC)+D(B(AC+AC)+AB)+ACD+ABD$\nb. Write truth table and design logic circuit of even parity checker for three-bit generated message.",
+    "mark": 5,
+    "paper_type": "endsem",
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
+  },
+  {
+    "subject": "EEEG 211",
+    "question": "What is a clipper circuit? Draw and explain the output waveform for the circuit provided in Fig. 1.\n\nFig. 1",
+    "mark": 4,
+    "paper_type": "endsem",
+    "section": "B",
+    "semester": 3,
+    "family": "math_phys"
+  },
+  {
+    "subject": "MATH 208",
+    "question": "Identify the type of data. Choose from nominal, ordinal, interval, and ratio.\na) Anxiety rate on a scale of 1 to 5, where 1 equals not anxious, 3 equals moderately anxious, 5 equals highly anxious………\nb) Gender ……..\nc) Weight of an individual……\nd) Number of adults (above 18 years) living in a family……\ne) Temperature in °C………………..\nf) pH of any water-soluble substance is ………………",
+    "mark": 3,
+    "paper_type": "internal",
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
+  },
+  {
+    "subject": "MCSC 201",
+    "question": "Define matrix of a relation and an equivalence relation. Let $R$ be an equivalent relation on a set $A$ then for each $a, b \\in A$, prove that $a R b$ if and only if $R(a) = R(b)$. Find $M_{R^2}$, if $R$ be the relation on set $A$ whose matrix is\n\\[M_{\\mathrm{R}} = \\left[ \\begin{array}{lll}1 & 1 & 0\\\\ 0 & 0 & 1\\\\ 1 & 0 & 1 \\end{array} \\right].\\]",
+    "mark": 7,
+    "paper_type": "endsem",
+    "section": "C",
+    "semester": 3,
+    "family": "math_phys"
+  }
+]
