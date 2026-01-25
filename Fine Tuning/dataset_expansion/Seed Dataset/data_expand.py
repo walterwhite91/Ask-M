@@ -12,7 +12,7 @@ from tqdm import tqdm
 MODEL_NAME = "deepseek-chat" # currently using DeepSeek v3.2 chat model (non-thinking), not using reasoning as its note required. Also explicitly using deepseek as its trained on STEM datasets and its cheap
 API_URL = "https://api.deepseek.com/chat/completions"
 
-INPUT_FILE = "test_merged_dataset.json"
+INPUT_FILE = "merged_dataset.json"
 OUTPUT_FILE = "expanded_dataset.jsonl"
 FAILED_FILE = "failed_seeds.json"
 CHECKPOINT_FILE = "checkpoint.txt"
