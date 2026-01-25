@@ -1,5 +1,2 @@
-os
-json
-time
 requests
 tqdm
