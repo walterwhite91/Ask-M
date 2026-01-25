@@ -190,12 +190,6 @@ Section: {item.get('section', 'unknown')}
 Question:
 {item['question']}
 
-----------IMPORTANT OUTPUT RULES----------
-- Output ONE valid JSON object.
-- Newlines inside strings are allowed.
-- Do NOT include markdown.
-- Do NOT include text outside JSON.
-
 ----------EXAM MODE INSTRUCTIONS----------
 - STRICTLY optimize for {item['mark']} marks.
 - Write exactly as a KU student would in exams.
@@ -239,11 +233,12 @@ Exam follow-up:
 }}
 
 Rules:
-- Output ONLY valid JSON.
-- No markdown outside JSON.
+- Output ONLY valid JSON object.
 - Keywords must match syllabus language.
+- Newlines inside strings are allowed.
+- Do NOT include markdown.
+- Do NOT include text outside JSON.
 """
-
 
 # ---------------- PROMPT ROUTING ----------------
 
