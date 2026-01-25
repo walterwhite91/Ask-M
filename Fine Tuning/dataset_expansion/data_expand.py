@@ -279,6 +279,8 @@ def parse_math_output(text):
         m = re.search(fr"<{tag}>(.*?)</{tag}>", text, re.S)
         return m.group(1).strip() if m else None
 
+    keywords_raw = extract("KEYWORDS")
+
     return {
         "subject": extract("SUBJECT"),
         "question": extract("QUESTION"),
@@ -287,8 +289,13 @@ def parse_math_output(text):
         "exam_f_question": extract("EXAM_FOLLOWUP"),
         "guided_mode_answer": extract("GUIDED_MODE"),
         "guided_f_question": extract("GUIDED_FOLLOWUP"),
-        "keywords": [k.strip() for k in extract("KEYWORDS").split(",")]
+        # keywords optional
+        "keywords": (
+            [k.strip() for k in keywords_raw.split(",")]
+            if keywords_raw else []
+        )
     }
+
 
 # ---------------- JSON PARSER (PROGRAMMING / DESIGN) ----------------
 
