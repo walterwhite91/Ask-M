@@ -25,13 +25,228 @@ if not API_KEY:
 
 # prompt based on family
 def get_prompt_math_phys(item):
-    return "REPLACE_WITH_MATH_PHYS_PROMPT"
+    return f"""
+You are generating a Kathmandu University exam answer AND a guided tutoring answer.
+
+Subject: {item['subject']}
+Semester: {item['semester']}
+Marks: {item['mark']}
+Paper Type: {item.get('paper_type', 'unknown')}
+Section: {item.get('section', 'unknown')}
+
+Question:
+{item['question']}
+
+========================
+EXAM MODE INSTRUCTIONS
+========================
+- STRICTLY optimize for {item['mark']} marks.
+- Write exactly how a KU student would write in exams.
+- Avoid unnecessary theory or beautification.
+- Mention assumptions ONLY if they earn marks.
+- Diagrams cannot be drawn; describe only if unavoidable.
+
+For numericals / derivations:
+- Step-by-step solution is mandatory.
+- Use the following keywords ONLY when natural:
+  "Here, its given that,"
+  "We know,"
+  "Now, by the definition of,"
+  "Substituting,"
+  "Similarly,"
+  "Then,"
+  "We get,"
+  "Hence,"
+- Skip any keyword if it feels forced.
+
+========================
+GUIDED MODE INSTRUCTIONS
+========================
+- Level: Beginner → Intermediate.
+- Explain physical intuition FIRST, math later.
+- Break the explanation into small logical steps.
+- It is okay to repeat ideas in simpler words.
+- Guided mode may be longer than exam mode.
+
+========================
+FOLLOW-UP QUESTIONS
+========================
+Exam follow-up:
+- Generate EXACTLY ONE question.
+- It must be more complex OR from the next syllabus topic.
+
+Guided follow-up:
+- Generate EXACTLY THREE questions:
+  1. Check understanding of the core principle.
+  2. Identify key variables / assumptions.
+  3. Bridge intuition to mathematics.
+
+========================
+OUTPUT FORMAT (STRICT JSON ONLY)
+========================
+{{
+  "results": [{{
+    "subject": "{item['subject']}",
+    "question": "{item['question']}",
+    "keywords": ["..."],
+    "marks": {item['mark']},
+
+    "exam_mode_answer": "...",
+
+    "exam_f_question": "...",
+
+    "guided_mode_answer": "...",
+
+    "guided_f_question": "1. ...\\n2. ...\\n3. ..."
+  }}]
+}}
+
+Rules:
+- Output ONLY valid JSON.
+- No markdown outside JSON.
+- Keywords must match syllabus wording.
+"""
+
 
 def get_prompt_programming(item):
-    return "REPLACE_WITH_PROGRAMMING_PROMPT"
+    return f"""
+You are generating a Kathmandu University programming exam answer AND a guided tutoring answer.
+
+Subject: {item['subject']}
+Semester: {item['semester']}
+Marks: {item['mark']}
+Paper Type: {item.get('paper_type', 'unknown')}
+Section: {item.get('section', 'unknown')}
+
+Question:
+{item['question']}
+
+========================
+EXAM MODE INSTRUCTIONS
+========================
+- STRICTLY optimize for {item['mark']} marks.
+- Write as a KU student would in exams.
+- Correctness > verbosity.
+- Avoid unnecessary theory.
+- Use C/C++ syntax where applicable.
+- Include examples ONLY if marks justify it.
+
+========================
+GUIDED MODE INSTRUCTIONS
+========================
+- Level: Beginner → Intermediate.
+- Explain the idea first, then syntax.
+- Break logic into small steps.
+- Avoid assuming deep prior knowledge.
+- Guided mode may be longer than exam mode.
+
+========================
+FOLLOW-UP QUESTIONS
+========================
+Exam follow-up:
+- Generate EXACTLY ONE question.
+- More complex OR next syllabus topic.
+
+Guided follow-up:
+- Generate EXACTLY THREE questions:
+  1. What problem does this concept solve?
+  2. What are the main components / flow?
+  3. How does it work in an actual program?
+
+========================
+OUTPUT FORMAT (STRICT JSON ONLY)
+========================
+{{
+  "results": [{{
+    "subject": "{item['subject']}",
+    "question": "{item['question']}",
+    "keywords": ["..."],
+    "marks": {item['mark']},
+
+    "exam_mode_answer": "...",
+
+    "exam_f_question": "...",
+
+    "guided_mode_answer": "...",
+
+    "guided_f_question": "1. ...\\n2. ...\\n3. ..."
+  }}]
+}}
+
+Rules:
+- Output ONLY valid JSON.
+- No markdown outside JSON.
+- Keywords must align with syllabus terminology.
+"""
 
 def get_prompt_design(item):
-    return "REPLACE_WITH_DESIGN_PROMPT"
+    return f"""
+You are generating a Kathmandu University exam answer AND a guided tutoring answer.
+
+Subject: {item['subject']}
+Semester: {item['semester']}
+Marks: {item['mark']}
+Paper Type: {item.get('paper_type', 'unknown')}
+Section: {item.get('section', 'unknown')}
+
+Question:
+{item['question']}
+
+========================
+EXAM MODE INSTRUCTIONS
+========================
+- STRICTLY optimize for {item['mark']} marks.
+- Write exactly as a KU student would in exams.
+- Be structured and concise.
+- Do NOT attempt to draw diagrams.
+- Explain steps, standards, or conventions instead.
+
+========================
+GUIDED MODE INSTRUCTIONS
+========================
+- Level: Beginner → Intermediate.
+- Explain the purpose first, then the procedure.
+- Break explanations into clear steps.
+- Avoid unnecessary technical depth.
+
+========================
+FOLLOW-UP QUESTIONS
+========================
+Exam follow-up:
+- Generate EXACTLY ONE question.
+- More complex OR next syllabus task.
+
+Guided follow-up:
+- Generate EXACTLY THREE questions:
+  1. Why is this concept / step important?
+  2. What are the main rules or conventions?
+  3. How is it applied in practice or exams?
+
+========================
+OUTPUT FORMAT (STRICT JSON ONLY)
+========================
+{{
+  "results": [{{
+    "subject": "{item['subject']}",
+    "question": "{item['question']}",
+    "keywords": ["..."],
+    "marks": {item['mark']},
+
+    "exam_mode_answer": "...",
+
+    "exam_f_question": "...",
+
+    "guided_mode_answer": "...",
+
+    "guided_f_question": "1. ...\\n2. ...\\n3. ..."
+  }}]
+}}
+
+Rules:
+- Output ONLY valid JSON.
+- No markdown outside JSON.
+- Keywords must match syllabus language.
+"""
 
 def route_prompt(item):
     family = item.get("family")
