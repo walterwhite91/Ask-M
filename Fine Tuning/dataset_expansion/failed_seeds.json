@@ -1,0 +1,67 @@
+[
+  {
+    "index": 0,
+    "seed": {
+      "subject": "MATH 101",
+      "question": "A spherical balloon is inflated with helium at the rate of $200\\pi ft^{3} / min$ . How fast is the balloon's surface area increasing at the instant radius is $10ft$ ?\nb) Define point of inflection. Show that the function $y = x^{4}$ has no point of inflection.",
+      "mark": 5,
+      "paper_type": "internal",
+      "section": "C",
+      "semester": 1,
+      "family": "math_phys"
+    },
+    "error": "'NoneType' object has no attribute 'split'"
+  },
+  {
+    "index": 1,
+    "seed": {
+      "subject": "PHYS 102",
+      "question": "Show that the electric field of a (pure) dipole is given by:\n$\\vec{E}_{\\mathrm{dip}}(\\vec{r}) = \\frac{1}{4\\pi\\epsilon_0}\\frac{1}{r^3} [3(\\vec{p}\\cdot \\vec{r})\\vec{r} -\\vec{p} ]$.",
+      "mark": 5,
+      "paper_type": "endsem",
+      "section": "C",
+      "semester": 2,
+      "family": "math_phys"
+    },
+    "error": "'NoneType' object has no attribute 'split'"
+  },
+  {
+    "index": 2,
+    "seed": {
+      "subject": "MCSC 201",
+      "question": "Define matrix of a relation and an equivalence relation. Let $R$ be an equivalent relation on a set $A$ then for each $a, b \\in A$, prove that $a R b$ if and only if $R(a) = R(b)$. Find $M_{R^2}$, if $R$ be the relation on set $A$ whose matrix is\n\\[M_{\\mathrm{R}} = \\left[ \\begin{array}{lll}1 & 1 & 0\\\\ 0 & 0 & 1\\\\ 1 & 0 & 1 \\end{array} \\right].\\]",
+      "mark": 7,
+      "paper_type": "endsem",
+      "section": "C",
+      "semester": 3,
+      "family": "math_phys"
+    },
+    "error": "'NoneType' object has no attribute 'split'"
+  },
+  {
+    "index": 3,
+    "seed": {
+      "subject": "CHEM 101",
+      "question": "Define azeotrope mixture. Show that $\\Delta T = K_{f}m$\nThe freezing point depression constant for mercuric chloride, $HgCl_{2}$ , is 34.3. for a solution of $0.849\\mathrm{gm}$ of mercurous chloride, (empirical formula $HgCl$ ) in $50\\mathrm{gm}$ of $HgCl_{2}$ , the freezing point depression is $1.24^{\\circ}\\mathrm{C}$ . What is the molecular weight of mercurous chloride in this solution? What is its molecular formula?",
+      "mark": 6,
+      "paper_type": "endsem",
+      "section": "B",
+      "semester": 1,
+      "family": "math_phys"
+    },
+    "error": "'NoneType' object has no attribute 'split'"
+  },
+  {
+    "index": 4,
+    "seed": {
+      "subject": "EDRG 101",
+      "question": "A circle of diameter 40 mm rolls outside a circular arc of radius 60 mm for one and half revolution. Draw the locus of a point, lying at a distance of 30 mm from center of rolling circle.",
+      "mark": 12,
+      "paper_type": "endsem",
+      "section": "B",
+      "semester": 1,
+      "family": "design"
+    },
+    "error": "Parse failed"
+  }
+]

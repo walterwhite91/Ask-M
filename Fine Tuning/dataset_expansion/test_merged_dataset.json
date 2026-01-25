@@ -1,47 +1,11 @@
 [
   {
-    "subject": "CHEM 101",
-    "question": "Define azeotrope mixture. Show that $\\Delta T = K_{f}m$\nThe freezing point depression constant for mercuric chloride, $HgCl_{2}$ , is 34.3. for a solution of $0.849\\mathrm{gm}$ of mercurous chloride, (empirical formula $HgCl$ ) in $50\\mathrm{gm}$ of $HgCl_{2}$ , the freezing point depression is $1.24^{\\circ}\\mathrm{C}$ . What is the molecular weight of mercurous chloride in this solution? What is its molecular formula?",
-    "mark": 6,
-    "paper_type": "endsem",
-    "section": "B",
-    "semester": 1,
-    "family": "math_phys"
-  },
-  {
-    "subject": "EDRG 101",
-    "question": "A circle of diameter 40 mm rolls outside a circular arc of radius 60 mm for one and half revolution. Draw the locus of a point, lying at a distance of 30 mm from center of rolling circle.",
-    "mark": 12,
-    "paper_type": "endsem",
-    "section": "B",
-    "semester": 1,
-    "family": "design"
-  },
-  {
-    "subject": "ENGG 111",
-    "question": "Write short notes on (ANY FIVE):\na. Free body diagram\nb. Poisson's ratio\nc. Reynolds Number\nd. Entropy\ne. Zeroth law\nf. Bulk modulus",
-    "mark": 3,
-    "paper_type": "endsem",
-    "section": "B",
-    "semester": 1,
-    "family": "math_phys"
-  },
-  {
     "subject": "MATH 101",
     "question": "A spherical balloon is inflated with helium at the rate of $200\\pi ft^{3} / min$ . How fast is the balloon's surface area increasing at the instant radius is $10ft$ ?\nb) Define point of inflection. Show that the function $y = x^{4}$ has no point of inflection.",
     "mark": 5,
     "paper_type": "internal",
     "section": "C",
     "semester": 1,
-    "family": "math_phys"
-  },
-  {
-    "subject": "MATH 104",
-    "question": "Change to Polar form and then evaluate $\\int_{- \\alpha}^{\\alpha} \\int_{- \\sqrt{\\alpha^{2} - x^{2}}}^{\\sqrt{\\alpha^{2} - x^{2}}} dy dx$ .",
-    "mark": 2,
-    "paper_type": "internal",
-    "section": "B",
-    "semester": 2,
     "family": "math_phys"
   },
   {
@@ -61,5 +25,23 @@
     "section": "C",
     "semester": 3,
     "family": "math_phys"
+  },
+  {
+    "subject": "CHEM 101",
+    "question": "Define azeotrope mixture. Show that $\\Delta T = K_{f}m$\nThe freezing point depression constant for mercuric chloride, $HgCl_{2}$ , is 34.3. for a solution of $0.849\\mathrm{gm}$ of mercurous chloride, (empirical formula $HgCl$ ) in $50\\mathrm{gm}$ of $HgCl_{2}$ , the freezing point depression is $1.24^{\\circ}\\mathrm{C}$ . What is the molecular weight of mercurous chloride in this solution? What is its molecular formula?",
+    "mark": 6,
+    "paper_type": "endsem",
+    "section": "B",
+    "semester": 1,
+    "family": "math_phys"
+  },
+  {
+    "subject": "EDRG 101",
+    "question": "A circle of diameter 40 mm rolls outside a circular arc of radius 60 mm for one and half revolution. Draw the locus of a point, lying at a distance of 30 mm from center of rolling circle.",
+    "mark": 12,
+    "paper_type": "endsem",
+    "section": "B",
+    "semester": 1,
+    "family": "design"
   }
 ]
