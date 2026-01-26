@@ -109,130 +109,169 @@ term1, term2, term3, term4
 """
 
 def get_prompt_programming(item):
+    effective_marks = max(item["mark"], 4)
+
     return f"""
-You are generating a Kathmandu University programming exam answer AND a guided tutoring answer.
+You are generating study material for Kathmandu University programming students.
 
-Subject: {item['subject']}
-Semester: {item['semester']}
-Marks: {item['mark']}
+SUBJECT: {item['subject']}
+SEMESTER: {item['semester']}
+MARKS: {item['mark']} (treat as {effective_marks} for structure)
 
-Question:
+QUESTION:
 {item['question']}
 
-----------EXAM MODE INSTRUCTIONS----------
+CRITICAL:
+- Every tag listed below MUST appear exactly once.
+- If something is not applicable, write "N/A".
+- Do NOT output anything outside the tags.
+- Do NOT use JSON.
 
-- STRICTLY optimize for {item['mark']} marks.
-- Write as a KU student would in exams.
+SPECIAL RULE — COMPARISON QUESTIONS:
+- If the question asks to compare, differentiate, distinguish, or find differences,
+  THEN the EXAM_MODE answer MUST be in a TABLE.
+- The table must have clear column headers.
+- Use plain text table format (rows and columns using | or tabs).
+- Do NOT write comparison answers in paragraph form.
+
+----------EXAM MODE----------
+Write the answer exactly as a KU student would write in exams.
+
+Rules:
+- Optimize strictly for {item['mark']} marks.
 - Correctness > verbosity.
-- Avoid unnecessary theory.
-- Use C/C++ syntax where applicable.
-- Include examples ONLY if marks justify it.
+- Use C / C++ syntax where applicable/asked, else other languages like python is allowed
+- Include code ONLY if marks justify it.
+- If comparison-type question → TABLE FORMAT MANDATORY.
 
-----------GUIDED MODE INSTRUCTIONS----------
+----------GUIDED MODE----------
+Explain the same concept at Beginner → Intermediate level.
 
-- Level: Beginner → Intermediate.
+Rules:
 - Explain the idea first, then syntax.
-- Break logic into small steps.
-- Avoid assuming deep prior knowledge.
-- Guided mode may be longer than exam mode.
+- Break logic into clear steps.
+- Assume the student is learning this for the first time.
 
 ----------FOLLOW-UP QUESTIONS----------
-
 Exam follow-up:
-- Generate EXACTLY ONE question.
+- ONE question only.
 - More complex OR next syllabus topic.
 
 Guided follow-up:
-- Generate EXACTLY THREE questions:
+- THREE questions:
   1. What problem does this concept solve?
   2. What are the main components / flow?
   3. How does it work in an actual program?
 
-----------OUTPUT FORMAT (STRICT JSON ONLY)----------
-{{
-  "results": [{{
-    "subject": "{item['subject']}",
-    "question": "{item['question']}",
-    "keywords": ["..."],
-    "marks": {item['mark']},
+----------OUTPUT FORMAT (STRICT TAGS)----------
+<RESULT>
 
-    "exam_mode_answer": "...",
+<EXAM_MODE>
+... exam-style answer (TABLE if comparison) ...
+</EXAM_MODE>
 
-    "exam_f_question": "...",
+<EXAM_FOLLOWUP>
+...
+</EXAM_FOLLOWUP>
 
-    "guided_mode_answer": "...",
+<GUIDED_MODE>
+...
+</GUIDED_MODE>
 
-    "guided_f_question": "1. ...\\n2. ...\\n3. ..."
-  }}]
-}}
+<GUIDED_FOLLOWUP>
+1. ...
+2. ...
+3. ...
+</GUIDED_FOLLOWUP>
 
-Rules:
-- Output ONLY valid JSON.
-- No markdown outside JSON.
-- Keywords must align with syllabus terminology.
+<KEYWORDS>
+Exactly 4–6 syllabus-level technical terms, comma-separated.
+</KEYWORDS>
+
+</RESULT>
 """
 
 def get_prompt_design(item):
+    effective_marks = max(item["mark"], 6)
+
     return f"""
-You are generating a Kathmandu University exam answer AND a guided tutoring answer.
+You are generating study material for Kathmandu University engineering drawing / design students.
 
-Subject: {item['subject']}
-Semester: {item['semester']}
-Marks: {item['mark']}
-Paper Type: {item.get('paper_type', 'unknown')}
-Section: {item.get('section', 'unknown')}
+SUBJECT: {item['subject']}
+SEMESTER: {item['semester']}
+MARKS: {item['mark']} (treat as {effective_marks} for structure)
+PAPER TYPE: {item.get('paper_type', 'N/A')}
+SECTION: {item.get('section', 'N/A')}
 
-Question:
+QUESTION:
 {item['question']}
 
-----------EXAM MODE INSTRUCTIONS----------
-- STRICTLY optimize for {item['mark']} marks.
-- Write exactly as a KU student would in exams.
-- Be structured and concise.
-- Do NOT attempt to draw diagrams.
-- Explain steps, standards, or conventions instead.
+CRITICAL:
+- Every tag listed below MUST appear exactly once.
+- If something is not applicable, write "N/A".
+- Do NOT output anything outside the tags.
+- Do NOT draw diagrams.
 
-----------GUIDED MODE INSTRUCTIONS----------
-- Level: Beginner → Intermediate.
-- Explain the purpose first, then the procedure.
-- Break explanations into clear steps.
-- Avoid unnecessary technical depth.
+SPECIAL RULE — COMPARISON QUESTIONS:
+- If the question asks to compare, differentiate, distinguish, or find differences,
+  THEN the EXAM_MODE answer MUST be written in TABULAR FORM.
+- Use clear column headings.
+- Do NOT explain comparisons in paragraph form in exam mode.
+
+----------EXAM MODE----------
+Write exactly as a KU student would write in exams.
+
+Rules:
+- Optimize strictly for {item['mark']} marks.
+- Structured, step-by-step or tabular format.
+- Use proper engineering terminology.
+- If comparison-type question → TABLE FORMAT MANDATORY.
+
+----------GUIDED MODE----------
+Explain the same task at Beginner → Intermediate level.
+
+Rules:
+- Explain the purpose first.
+- Then explain steps, rules, or conventions.
+- Guided mode may be longer than exam mode.
 
 ----------FOLLOW-UP QUESTIONS----------
 Exam follow-up:
-- Generate EXACTLY ONE question.
+- ONE question only.
 - More complex OR next syllabus task.
 
-----------Guided follow-up:----------
-- Generate EXACTLY THREE questions:
-  1. Why is this concept / step important?
-  2. What are the main rules or conventions?
-  3. How is it applied in practice or exams?
+Guided follow-up:
+- THREE questions:
+  1. Why is this concept / rule important?
+  2. What are the main conventions or standards?
+  3. How is it applied in exams or practice?
 
-----------OUTPUT FORMAT (STRICT JSON ONLY)----------
-{{
-  "results": [{{
-    "subject": "{item['subject']}",
-    "question": "{item['question']}",
-    "keywords": ["..."],
-    "marks": {item['mark']},
+----------OUTPUT FORMAT (STRICT TAGS)----------
+<RESULT>
 
-    "exam_mode_answer": "...",
+<EXAM_MODE>
+... exam-style steps OR TABLE if comparison ...
+</EXAM_MODE>
 
-    "exam_f_question": "...",
+<EXAM_FOLLOWUP>
+...
+</EXAM_FOLLOWUP>
 
-    "guided_mode_answer": "...",
+<GUIDED_MODE>
+...
+</GUIDED_MODE>
 
-    "guided_f_question": "1. ...\\n2. ...\\n3. ..."
-  }}]
-}}
+<GUIDED_FOLLOWUP>
+1. ...
+2. ...
+3. ...
+</GUIDED_FOLLOWUP>
 
-Rules:
-- Output ONLY valid JSON object.
-- Keywords must match syllabus language.
-- Newlines inside strings are allowed.
-- Do NOT include markdown.
-- Do NOT include text outside JSON.
+<KEYWORDS>
+Exactly 4–6 syllabus-level technical terms, comma-separated.
+</KEYWORDS>
+
+</RESULT>
 """
 
 
@@ -257,24 +296,21 @@ def call_model(prompt, max_tokens):
 
     return resp.json()["choices"][0]["message"]["content"]
 
-# ---------------- TAG PARSERS (MATH) ----------------
+# ---------------- TAG UTIL ----------------
 
 def extract_tag(text, tag):
     m = re.search(fr"<{tag}>(.*?)</{tag}>", text, re.S)
     return m.group(1).strip() if m else None
 
+# ---------------- MATH PARSERS ----------------
+
 def parse_math_exam(text):
-    # First try strict tag
     exam = extract_tag(text, "EXAM_MODE")
     if exam:
         return exam.strip()
 
-    # Fallback: treat entire output as exam answer
-    cleaned = text.strip()
-    if len(cleaned) > 50:
-        return cleaned
-
-    return None
+    fallback = text.strip()
+    return fallback if len(fallback) > 50 else None
 
 def parse_math_guided(text):
     keywords_raw = extract_tag(text, "KEYWORDS")
@@ -290,38 +326,37 @@ def parse_math_guided(text):
     }
 
 def is_valid_math_exam(exam):
-    return exam is not None and len(exam.strip()) > 30
+    return exam and len(exam.strip()) > 30
 
 def is_valid_math_guided(parsed, mark):
     required = ["guided_mode_answer", "guided_f_question"]
-
-    # exam follow-up required only for >= 4 marks
     if mark >= 4:
         required.append("exam_f_question")
+    return all(parsed.get(k) and parsed[k].strip() for k in required)
 
-    return all(parsed.get(k) and parsed.get(k).strip() for k in required)
+# ---------------- GENERIC TAG PARSER (PROGRAMMING / DESIGN) ----------------
 
-# ---------------- JSON PARSER (OTHERS) ----------------
+def parse_tagged_result(text):
+    keywords_raw = extract_tag(text, "KEYWORDS")
 
-def try_parse_json(raw_text):
-    try:
-        return json.loads(raw_text)
-    except:
-        pass
+    return {
+        "exam_mode_answer": extract_tag(text, "EXAM_MODE"),
+        "exam_f_question": extract_tag(text, "EXAM_FOLLOWUP"),
+        "guided_mode_answer": extract_tag(text, "GUIDED_MODE"),
+        "guided_f_question": extract_tag(text, "GUIDED_FOLLOWUP"),
+        "keywords": (
+            [k.strip() for k in keywords_raw.split(",")]
+            if keywords_raw else []
+        )
+    }
 
-    start = raw_text.find("{")
-    end = raw_text.rfind("}") + 1
-    if start == -1 or end <= start:
-        return None
-
-    cleaned = raw_text[start:end]
-    cleaned = cleaned.replace("“", "\"").replace("”", "\"")
-    cleaned = cleaned.replace(",}", "}")
-
-    try:
-        return json.loads(cleaned)
-    except:
-        return None
+def is_valid_tagged(parsed):
+    required = [
+        "exam_mode_answer",
+        "guided_mode_answer",
+        "guided_f_question"
+    ]
+    return all(parsed.get(k) and parsed[k].strip() for k in required)
 
 # ---------------- PROMPT ROUTING ----------------
 
@@ -329,10 +364,9 @@ def route_other_prompt(item):
     family = item.get("family")
     if family == "programming":
         return get_prompt_programming(item)
-    elif family == "design":
+    if family == "design":
         return get_prompt_design(item)
     return None
-
 
 # ---------------- MAIN ----------------
 
@@ -353,7 +387,6 @@ def main():
 
             # ========== TWO-PASS MATH ==========
             if family == "math_phys":
-                # ---- Pass 1: Exam answer only ----
                 exam_prompt = get_prompt_math_phys_exam(item)
                 exam_raw = call_model(exam_prompt, MAX_TOKENS_EXAM)
                 exam_answer = parse_math_exam(exam_raw)
@@ -361,53 +394,61 @@ def main():
                 if not is_valid_math_exam(exam_answer):
                     raise ValueError("Math exam pass failed")
 
-                # ---- Pass 2: Guided + followups + keywords ----
                 guided_prompt = get_prompt_math_phys_guided(item, exam_answer)
                 guided_raw = call_model(guided_prompt, MAX_TOKENS_GUIDED)
                 guided = parse_math_guided(guided_raw)
 
-                if not guided.get("keywords"):
-                    guided["keywords"] = []
+                guided["keywords"] = guided.get("keywords") or []
 
+                # Retry ONCE if guided fails
                 if not is_valid_math_guided(guided, item["mark"]):
                     guided_raw = call_model(guided_prompt, MAX_TOKENS_GUIDED)
                     guided = parse_math_guided(guided_raw)
-
-                    if not guided.get("keywords"):
-                        guided["keywords"] = []
+                    guided["keywords"] = guided.get("keywords") or []
 
                 if not is_valid_math_guided(guided, item["mark"]):
                     raise ValueError("Math guided pass failed")
-
 
                 final = {
                     "subject": item["subject"],
                     "question": item["question"],
                     "marks": item["mark"],
                     "exam_mode_answer": exam_answer,
-                    "exam_f_question": guided["exam_f_question"],
+                    "exam_f_question": guided.get("exam_f_question"),
                     "guided_mode_answer": guided["guided_mode_answer"],
                     "guided_f_question": guided["guided_f_question"],
                     "keywords": guided["keywords"]
                 }
 
-            # ========== SINGLE-PASS OTHERS ==========
+            # ========== PROGRAMMING / DESIGN ==========
             else:
                 prompt = route_other_prompt(item)
                 if not prompt:
                     raise ValueError("Unknown family")
 
                 raw = call_model(prompt, MAX_TOKENS_GUIDED)
-                final = try_parse_json(raw)
+                parsed = parse_tagged_result(raw)
 
-                if not final:
-                    raise ValueError("JSON parse failed")
+                parsed["keywords"] = parsed.get("keywords") or []
 
-            # ---- Write output ----
+                if not is_valid_tagged(parsed):
+                    raise ValueError("Tagged output parse failed")
+
+                final = {
+                    "subject": item["subject"],
+                    "question": item["question"],
+                    "marks": item["mark"],
+                    "exam_mode_answer": parsed["exam_mode_answer"],
+                    "exam_f_question": parsed["exam_f_question"],
+                    "guided_mode_answer": parsed["guided_mode_answer"],
+                    "guided_f_question": parsed["guided_f_question"],
+                    "keywords": parsed["keywords"]
+                }
+
+            # ---- WRITE OUTPUT ----
             with open(OUTPUT_FILE, "a", encoding="utf-8") as f:
                 f.write(json.dumps(final, ensure_ascii=False) + "\n")
 
-            # ---- Checkpoint only on success ----
             with open(CHECKPOINT_FILE, "w") as ck:
                 ck.write(str(i + 1))
 
@@ -424,7 +465,6 @@ def main():
         json.dump(failed, open(FAILED_FILE, "w"), indent=2, ensure_ascii=False)
 
     print("Bhayo finally!! Hurray!!!")
-
 
 if __name__ == "__main__":
     main()
